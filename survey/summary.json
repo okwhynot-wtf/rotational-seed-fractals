@@ -1,0 +1,80 @@
+[
+  {
+    "id": "borromean-m2-q0-a0",
+    "map_count": 80,
+    "similarity_dimension_upper_bound": 2.4801499099853688,
+    "volume_cover_sum": 0.48454854685828574,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 5.551115123125783e-17,
+    "orthogonality_max_error": 2.220446049250313e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.003155145427101047,
+    "three_volume_cover_sum": 0.48454854685828574,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m2-q1_2-a1_3",
+    "map_count": 80,
+    "similarity_dimension_upper_bound": 2.4801499099853688,
+    "volume_cover_sum": 0.48454854685828574,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 5.551115123125783e-17,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.003155145427101047,
+    "three_volume_cover_sum": 0.48454854685828574,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m2-q1-a1_2",
+    "map_count": 80,
+    "similarity_dimension_upper_bound": 2.4801499099853688,
+    "volume_cover_sum": 0.48454854685828574,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 5.551115123125783e-17,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.003155145427101047,
+    "three_volume_cover_sum": 0.48454854685828574,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m2-q1_2-a1_3-overlap",
+    "map_count": 84,
+    "similarity_dimension_upper_bound": 2.5626451090656426,
+    "volume_cover_sum": 0.5470485468582857,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 5.551115123125783e-17,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.003155145427101047,
+    "three_volume_cover_sum": 0.5470485468582857,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap",
+    "map_count": 123,
+    "similarity_dimension_upper_bound": 2.3649482338952525,
+    "volume_cover_sum": 0.4167437986036827,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 2.220446049250313e-16,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.09277072117098939,
+    "three_volume_cover_sum": 0.4167437986036827,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m4-q1_2-a1_3-overlap",
+    "map_count": 162,
+    "similarity_dimension_upper_bound": 2.2612976029566525,
+    "volume_cover_sum": 0.3711371367145714,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 2.7755575615628914e-17,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.13654689130661968,
+    "three_volume_cover_sum": 0.3711371367145714,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "films": [
+    {
+      "file": "hero.mp4",
+      "decoded_frames": 576,
+      "size": [
+        1280,
+        720
+      ],
+      "fps": 24.0,
+      "duration": 24.0,
+      "sha256": "e3692d7999d1b769afdd0f0fba2dee55bc6a89fc1fb507325c57430b0956088c",
+      "sample_pixel_variances": [
+        2192.3197364061457,
+        2115.3071485594005,
+        2071.064766698672,
+        2183.283135914728
+      ]
+    },
+    {
+      "file": "descent.mp4",
+      "decoded_frames": 384,
+      "size": [
+        1280,
+        720
+      ],
+      "fps": 24.0,
+      "duration": 16.0,
+      "sha256": "c62a35c7b747ab9de83ed7365cf2b10300b46988086005fd2266127004f3b87b",
+      "sample_pixel_variances": [
+        2200.812867943557,
+        4733.797716321555,
+        3975.7469916071,
+        4826.488419599493
+      ]
+    },
+    {
+      "file": "membrane-orbit.mp4",
+      "decoded_frames": 384,
+      "size": [
+        1280,
+        720
+      ],
+      "fps": 24.0,
+      "duration": 16.0,
+      "sha256": "c05615f0b98500d6d0046a40729235e2621e7ce87a3115d9a41d2da79c92ce77",
+      "sample_pixel_variances": [
+        1420.8846956170603,
+        1569.1005094386892,
+        1237.378823557299,
+        1422.7514909167508
+      ]
+    }
+  ],
+  "scope": "Full decode, metadata, hashes and finite-frame variation. Contact sheet inspected separately; this is not a mathematical proof."
+}

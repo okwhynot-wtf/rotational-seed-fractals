@@ -1,0 +1,9 @@
+{
+  "file": "Borromean-C3-m3-axis6-q1_8-Exact.aifs",
+  "maps": 127,
+  "coefficient_definition": "exact radicals and rationals",
+  "symbolic_similarity_checks": "passed for all maps",
+  "max_difference_from_numerical_model": 2.220446049250313e-16,
+  "native_application_import": "not yet tested; root to inspect",
+  "syntax_source": "https://ifstile.com/manual/"
+}

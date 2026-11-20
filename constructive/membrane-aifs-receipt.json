@@ -1,0 +1,19 @@
+{
+  "aifs_file": "Membrane-and-Anchored-Slant-Exact.aifs",
+  "sha256": "e332177a9d945fa6243a0901dd6eb15caa64eef5bf454d562db44aba88cf1cf9",
+  "blocks": 2,
+  "map_counts": [
+    8,
+    12
+  ],
+  "coefficient_type": "exact rationals",
+  "checks": [
+    "all 20 similarity equations exactly in Fraction arithmetic",
+    "all 20 positive determinants equal contraction cubed",
+    "all core and wing anchors fixed exactly",
+    "C4 conjugation permutes each model exactly"
+  ],
+  "aifs_syntax_source": "https://github.com/mekhontsev/ifstile/blob/master/manual.md",
+  "native_application_import": "not tested by exporter; root will inspect",
+  "memory_use": "standard library only; twenty 3x3 matrices, no dense geometry"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap-c1_8-ax3",
+    "map_count": 124,
+    "similarity_dimension_upper_bound": 2.1934955690924527,
+    "volume_cover_sum": 0.2231674097147936,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 2.220446049250313e-16,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.09277072117098939,
+    "axis_interval_cover_max_error": 5.551115123125783e-17,
+    "three_volume_cover_sum": 0.2231674097147936,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap-c1_8-ax4",
+    "map_count": 125,
+    "similarity_dimension_upper_bound": 2.1552776531341626,
+    "volume_cover_sum": 0.17455629860368244,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 2.220446049250313e-16,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.09277072117098939,
+    "axis_interval_cover_max_error": 0.0,
+    "three_volume_cover_sum": 0.17455629860368244,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap-c1_8-ax6",
+    "map_count": 127,
+    "similarity_dimension_upper_bound": 2.1204992472062427,
+    "volume_cover_sum": 0.13983407638146023,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 2.220446049250313e-16,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.09277072117098939,
+    "axis_interval_cover_max_error": 1.1102230246251565e-16,
+    "three_volume_cover_sum": 0.13983407638146023,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  },
+  {
+    "id": "borromean-m2-q1_2-a1_3-overlap-c3_20-ax4",
+    "map_count": 86,
+    "similarity_dimension_upper_bound": 2.3636394936115,
+    "volume_cover_sum": 0.31054854685828565,
+    "invariant_ball_radius": 2.5,
+    "endpoint_max_error": 5.551115123125783e-17,
+    "orthogonality_max_error": 4.440892098500626e-16,
+    "C3_conjugacy_max_error": 0.0,
+    "invariant_ball_slack": 0.003155145427101047,
+    "axis_interval_cover_max_error": 0.0,
+    "three_volume_cover_sum": 0.31054854685828565,
+    "checks_are": "floating-point implementation checks, not proof of topology or historical novelty"
+  }
+]

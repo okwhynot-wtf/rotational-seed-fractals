@@ -1,0 +1,608 @@
+{
+  "exact_arithmetic": "fractions.Fraction; no tolerance-based decisions",
+  "definition": "Rectangles (\u00b12,\u00b11,0), and cyclic coordinate permutations.",
+  "projection": "(17x-7z,17y-11z), depth 7x+11y+17z; no projected vertex on a different segment",
+  "full": {
+    "components": [
+      0,
+      1,
+      2
+    ],
+    "crossings": [
+      {
+        "over": 0,
+        "under": 1,
+        "ot": "41/68",
+        "ut": "3/34",
+        "sign": 1,
+        "plane": [
+          "7",
+          "-17"
+        ],
+        "depth_gap": "27"
+      },
+      {
+        "over": 1,
+        "under": 0,
+        "ot": "44/17",
+        "ut": "27/68",
+        "sign": 1,
+        "plane": [
+          "-7",
+          "-17"
+        ],
+        "depth_gap": "27"
+      },
+      {
+        "over": 0,
+        "under": 1,
+        "ot": "163/68",
+        "ut": "10/17",
+        "sign": -1,
+        "plane": [
+          "7",
+          "17"
+        ],
+        "depth_gap": "27"
+      },
+      {
+        "over": 1,
+        "under": 0,
+        "ot": "71/34",
+        "ut": "177/68",
+        "sign": -1,
+        "plane": [
+          "-7",
+          "17"
+        ],
+        "depth_gap": "27"
+      },
+      {
+        "over": 2,
+        "under": 0,
+        "ot": "39/44",
+        "ut": "1/11",
+        "sign": 1,
+        "plane": [
+          "-306/11",
+          "-17"
+        ],
+        "depth_gap": "459/11"
+      },
+      {
+        "over": 2,
+        "under": 0,
+        "ot": "93/44",
+        "ut": "13/22",
+        "sign": -1,
+        "plane": [
+          "68/11",
+          "-17"
+        ],
+        "depth_gap": "459/11"
+      },
+      {
+        "over": 0,
+        "under": 2,
+        "ot": "57/22",
+        "ut": "5/44",
+        "sign": 1,
+        "plane": [
+          "-68/11",
+          "17"
+        ],
+        "depth_gap": "459/11"
+      },
+      {
+        "over": 0,
+        "under": 2,
+        "ot": "23/11",
+        "ut": "127/44",
+        "sign": -1,
+        "plane": [
+          "306/11",
+          "17"
+        ],
+        "depth_gap": "459/11"
+      },
+      {
+        "over": 2,
+        "under": 1,
+        "ot": "15/7",
+        "ut": "3/28",
+        "sign": 1,
+        "plane": [
+          "7",
+          "-110/7"
+        ],
+        "depth_gap": "459/7"
+      },
+      {
+        "over": 1,
+        "under": 2,
+        "ot": "45/68",
+        "ut": "63/17",
+        "sign": 1,
+        "plane": [
+          "7",
+          "22"
+        ],
+        "depth_gap": "27"
+      },
+      {
+        "over": 1,
+        "under": 2,
+        "ot": "59/28",
+        "ut": "1/7",
+        "sign": -1,
+        "plane": [
+          "-7",
+          "110/7"
+        ],
+        "depth_gap": "459/7"
+      },
+      {
+        "over": 2,
+        "under": 1,
+        "ot": "29/17",
+        "ut": "181/68",
+        "sign": -1,
+        "plane": [
+          "-7",
+          "-22"
+        ],
+        "depth_gap": "27"
+      }
+    ],
+    "arc_count": 12,
+    "fox3_matrix": [
+      [
+        0,
+        0,
+        2,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0,
+        0
+      ]
+    ],
+    "fox3_rank": 11,
+    "fox3_colourings": 3,
+    "unlink_colourings": 27,
+    "linking_numbers": {
+      "0-1": 0,
+      "0-2": 0,
+      "1-2": 0
+    }
+  },
+  "pairs": [
+    {
+      "components": [
+        0,
+        1
+      ],
+      "crossings": [
+        {
+          "over": 0,
+          "under": 1,
+          "ot": "41/68",
+          "ut": "3/34",
+          "sign": 1,
+          "plane": [
+            "7",
+            "-17"
+          ],
+          "depth_gap": "27"
+        },
+        {
+          "over": 1,
+          "under": 0,
+          "ot": "44/17",
+          "ut": "27/68",
+          "sign": 1,
+          "plane": [
+            "-7",
+            "-17"
+          ],
+          "depth_gap": "27"
+        },
+        {
+          "over": 0,
+          "under": 1,
+          "ot": "163/68",
+          "ut": "10/17",
+          "sign": -1,
+          "plane": [
+            "7",
+            "17"
+          ],
+          "depth_gap": "27"
+        },
+        {
+          "over": 1,
+          "under": 0,
+          "ot": "71/34",
+          "ut": "177/68",
+          "sign": -1,
+          "plane": [
+            "-7",
+            "17"
+          ],
+          "depth_gap": "27"
+        }
+      ],
+      "arc_count": 4,
+      "fox3_matrix": [
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          2
+        ]
+      ],
+      "fox3_rank": 2,
+      "fox3_colourings": 9,
+      "unlink_colourings": 9,
+      "linking_numbers": {
+        "0-1": 0
+      }
+    },
+    {
+      "components": [
+        0,
+        2
+      ],
+      "crossings": [
+        {
+          "over": 2,
+          "under": 0,
+          "ot": "39/44",
+          "ut": "1/11",
+          "sign": 1,
+          "plane": [
+            "-306/11",
+            "-17"
+          ],
+          "depth_gap": "459/11"
+        },
+        {
+          "over": 2,
+          "under": 0,
+          "ot": "93/44",
+          "ut": "13/22",
+          "sign": -1,
+          "plane": [
+            "68/11",
+            "-17"
+          ],
+          "depth_gap": "459/11"
+        },
+        {
+          "over": 0,
+          "under": 2,
+          "ot": "57/22",
+          "ut": "5/44",
+          "sign": 1,
+          "plane": [
+            "-68/11",
+            "17"
+          ],
+          "depth_gap": "459/11"
+        },
+        {
+          "over": 0,
+          "under": 2,
+          "ot": "23/11",
+          "ut": "127/44",
+          "sign": -1,
+          "plane": [
+            "306/11",
+            "17"
+          ],
+          "depth_gap": "459/11"
+        }
+      ],
+      "arc_count": 4,
+      "fox3_matrix": [
+        [
+          -1,
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ]
+      ],
+      "fox3_rank": 2,
+      "fox3_colourings": 9,
+      "unlink_colourings": 9,
+      "linking_numbers": {
+        "0-2": 0
+      }
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "crossings": [
+        {
+          "over": 2,
+          "under": 1,
+          "ot": "15/7",
+          "ut": "3/28",
+          "sign": 1,
+          "plane": [
+            "7",
+            "-110/7"
+          ],
+          "depth_gap": "459/7"
+        },
+        {
+          "over": 1,
+          "under": 2,
+          "ot": "45/68",
+          "ut": "63/17",
+          "sign": 1,
+          "plane": [
+            "7",
+            "22"
+          ],
+          "depth_gap": "27"
+        },
+        {
+          "over": 1,
+          "under": 2,
+          "ot": "59/28",
+          "ut": "1/7",
+          "sign": -1,
+          "plane": [
+            "-7",
+            "110/7"
+          ],
+          "depth_gap": "459/7"
+        },
+        {
+          "over": 2,
+          "under": 1,
+          "ot": "29/17",
+          "ut": "181/68",
+          "sign": -1,
+          "plane": [
+            "-7",
+            "-22"
+          ],
+          "depth_gap": "27"
+        }
+      ],
+      "arc_count": 4,
+      "fox3_matrix": [
+        [
+          -1,
+          -1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          2,
+          0
+        ]
+      ],
+      "fox3_rank": 2,
+      "fox3_colourings": 9,
+      "unlink_colourings": 9,
+      "linking_numbers": {
+        "1-2": 0
+      }
+    }
+  ],
+  "conclusion": "The three disjoint polygon components are not the three-component unlink: Fox 3-colouring counts differ. Each pair has zero linking number. Pair colour counts alone do not prove pairwise unlinking; an explicit separation argument is required.",
+  "scope": "Embedded polygonal subset only. Does not classify the ambient attractor or establish historical novelty."
+}

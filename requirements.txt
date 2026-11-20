@@ -1,0 +1,7 @@
+numpy>=2.0,<3
+scipy>=1.14,<2
+Pillow>=10,<13
+moderngl>=5.10,<6
+imageio-ffmpeg>=0.6,<1
+sympy>=1.13,<2
+Markdown>=3.7,<4

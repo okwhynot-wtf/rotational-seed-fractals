@@ -1,0 +1,38 @@
+{
+  "original125": {
+    "max_word_length": 5,
+    "word_counts_including_empty": [
+      1,
+      8,
+      64,
+      512,
+      4096,
+      32768
+    ],
+    "total_words": 37449,
+    "distinct_modular_affine_images": 37449,
+    "modular_collisions": 0,
+    "modulus": 2147483647,
+    "exact_conclusion": "Every two distinct words of length at most 5 define distinct rational affine maps.",
+    "justification": "Rational equality would imply equality after reduction; every denominator is invertible modulo the specified modulus."
+  },
+  "norm13": {
+    "max_word_length": 5,
+    "word_counts_including_empty": [
+      1,
+      8,
+      64,
+      512,
+      4096,
+      32768
+    ],
+    "total_words": 37449,
+    "distinct_modular_affine_images": 37449,
+    "modular_collisions": 0,
+    "modulus": 2147483647,
+    "exact_conclusion": "Every two distinct words of length at most 5 define distinct rational affine maps.",
+    "justification": "Rational equality would imply equality after reduction; every denominator is invertible modulo the specified modulus."
+  },
+  "norm13_minimum_maximum_word_length": 6,
+  "minimum_scope": "No pair with both lengths <=5 coincides; a length6/length6 pair is explicitly certified. Together with the separate free-core-rotation proof, which forces equal word lengths in every affine coincidence, the minimum combined length is 12."
+}

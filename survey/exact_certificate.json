@@ -1,0 +1,50 @@
+[
+  {
+    "subdivisions": 2,
+    "central_overlap": false,
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/48",
+    "edge_scale_rational_upper": "289/2000",
+    "largest_edge_midpoint_squared": "73/16",
+    "volume_cover_rational_upper": "1941365191/4000000000",
+    "hausdorff_dimension_strict_upper": "5/2",
+    "dimension_cover_rational_upper": "4854599425925981/5000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "subdivisions": 2,
+    "central_overlap": true,
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/48",
+    "edge_scale_rational_upper": "289/2000",
+    "largest_edge_midpoint_squared": "73/16",
+    "volume_cover_rational_upper": "2191365191/4000000000",
+    "hausdorff_dimension_strict_upper": "13/5",
+    "dimension_cover_rational_upper": "189483670838349/200000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "subdivisions": 3,
+    "central_overlap": true,
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/108",
+    "edge_scale_rational_upper": "289/3000",
+    "largest_edge_midpoint_squared": "169/36",
+    "volume_cover_rational_upper": "1251288397/3000000000",
+    "hausdorff_dimension_strict_upper": "12/5",
+    "dimension_cover_rational_upper": "1184014548225741/1250000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "subdivisions": 4,
+    "central_overlap": true,
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/192",
+    "edge_scale_rational_upper": "289/4000",
+    "largest_edge_midpoint_squared": "305/64",
+    "volume_cover_rational_upper": "5941365191/16000000000",
+    "hausdorff_dimension_strict_upper": "23/10",
+    "dimension_cover_rational_upper": "4701606090014531/5000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  }
+]

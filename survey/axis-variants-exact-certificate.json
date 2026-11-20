@@ -1,0 +1,62 @@
+[
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap-c1_8-ax3",
+    "subdivisions": 3,
+    "axis_subdivisions": 3,
+    "central_overlap": true,
+    "central_scale": "1/8",
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/108",
+    "edge_scale_rational_upper": "289/3000",
+    "largest_edge_midpoint_squared": "169/36",
+    "volume_cover_rational_upper": "2011677691/9000000000",
+    "hausdorff_dimension_strict_upper": "11/5",
+    "dimension_cover_rational_upper": "308472463827211/312500000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap-c1_8-ax4",
+    "subdivisions": 3,
+    "axis_subdivisions": 4,
+    "central_overlap": true,
+    "central_scale": "1/8",
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/108",
+    "edge_scale_rational_upper": "289/3000",
+    "largest_edge_midpoint_squared": "169/36",
+    "volume_cover_rational_upper": "524725897/3000000000",
+    "hausdorff_dimension_strict_upper": "13/6",
+    "dimension_cover_rational_upper": "9759673301931769/10000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "id": "borromean-m3-q1_2-a1_3-overlap-c1_8-ax6",
+    "subdivisions": 3,
+    "axis_subdivisions": 6,
+    "central_overlap": true,
+    "central_scale": "1/8",
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/108",
+    "edge_scale_rational_upper": "289/3000",
+    "largest_edge_midpoint_squared": "169/36",
+    "volume_cover_rational_upper": "1261677691/9000000000",
+    "hausdorff_dimension_strict_upper": "17/8",
+    "dimension_cover_rational_upper": "9899044325873111/10000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "id": "borromean-m2-q1_2-a1_3-overlap-c3_20-ax4",
+    "subdivisions": 2,
+    "axis_subdivisions": 4,
+    "central_overlap": true,
+    "central_scale": "3/20",
+    "invariant_radius": "5/2",
+    "edge_scale_squared": "1/48",
+    "edge_scale_rational_upper": "289/2000",
+    "largest_edge_midpoint_squared": "73/16",
+    "volume_cover_rational_upper": "1245365191/4000000000",
+    "hausdorff_dimension_strict_upper": "12/5",
+    "dimension_cover_rational_upper": "2337346166834887/2500000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  }
+]

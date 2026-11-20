@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "checks_passed": 16,
+  "checks_total": 16,
+  "python": "3.12.9",
+  "elapsed_seconds": 12.391,
+  "isolated_temporary_copy": true,
+  "checks": [
+    {
+      "check": "Rational polygon link projection and Fox colourings",
+      "command": "python research/verify_link.py",
+      "status": "passed",
+      "seconds": 0.078
+    },
+    {
+      "check": "Rational graph scalar bounds",
+      "command": "python survey/verify_exact.py",
+      "status": "passed",
+      "seconds": 0.078
+    },
+    {
+      "check": "Graph numerical endpoint, symmetry and enclosure checks",
+      "command": "python survey/model.py",
+      "status": "passed",
+      "seconds": 0.329
+    },
+    {
+      "check": "Selected axis variants and their rational dimension bounds",
+      "command": "python survey/axis_variants.py",
+      "status": "passed",
+      "seconds": 0.296
+    },
+    {
+      "check": "Dense variants and their rational volume bounds",
+      "command": "python survey/dense_variants.py",
+      "status": "passed",
+      "seconds": 0.219
+    },
+    {
+      "check": "Thin linked member and matched unlink control",
+      "command": "python survey/low_dimension.py",
+      "status": "passed",
+      "seconds": 0.266
+    },
+    {
+      "check": "Graph compiler certificates and allocation guard",
+      "command": "python survey/verify_compiler.py",
+      "status": "passed",
+      "seconds": 0.234
+    },
+    {
+      "check": "Independent integer membrane matrix audit",
+      "command": "python survey/audit_membrane.py",
+      "status": "passed",
+      "seconds": 0.063
+    },
+    {
+      "check": "Membrane numerical implementation checks",
+      "command": "python constructive/membrane.py",
+      "status": "passed",
+      "seconds": 0.187
+    },
+    {
+      "check": "Twenty exact membrane and anchored similarities",
+      "command": "python constructive/export_exact.py",
+      "status": "passed",
+      "seconds": 0.094
+    },
+    {
+      "check": "Sixty-four affine equalities and improved dimension brackets",
+      "command": "python constructive/overlaps/certify_bounds.py",
+      "status": "passed",
+      "seconds": 0.266
+    },
+    {
+      "check": "Bounded exact distinct-word screen",
+      "command": "python constructive/overlaps/screen_short_words.py",
+      "status": "passed",
+      "seconds": 0.843
+    },
+    {
+      "check": "Finite quaternion premises for the free-rotation proof",
+      "command": "python constructive/overlaps/free_rotations.py",
+      "status": "passed",
+      "seconds": 0.078
+    },
+    {
+      "check": "Exact norm-13 variant export",
+      "command": "python constructive/overlaps/export_norm13.py",
+      "status": "passed",
+      "seconds": 0.094
+    },
+    {
+      "check": "Selected 127-map symbolic similarity export",
+      "command": "python survey/export_aifs.py --m 3 --axis 6 --central 1/8",
+      "status": "passed",
+      "seconds": 7.297
+    },
+    {
+      "check": "Exact complete-sphere membrane tangent bounds",
+      "command": "python constructive/tangent_bounds/certify.py --verify",
+      "status": "passed",
+      "seconds": 1.828
+    }
+  ],
+  "source_sha256": {
+    "survey/audit_membrane.py": "771f82812e424b078dc5e867f7510cf01b8cb2b34fe23d0c8ee3be8c9d41da3b",
+    "survey/axis_variants.py": "7f7c9870f0e4ccdb9dedb8a409cdc2c3a73d48bf68a14484f0d453dd527b6f97",
+    "survey/dense_variants.py": "51c74542d2ca1953d6b557600c362f2260b5d8fa75aaa4b42624430b6570fdc6",
+    "survey/export_aifs.py": "5e723431394e896c954bead0109aa5d41e4e0fe7b3129a94df23c112b72ce249",
+    "survey/graph_compiler.py": "97158cf99eea02254e575faf0ee2c7d8aeb8fd6778b66fd0055d1e460ee10fac",
+    "survey/low_dimension.py": "aba575877b1dd8c6ad77fbba791ffa09e021ff06592580c7f40f5133405258d5",
+    "survey/model.py": "d47af735a785ec0229477de54649a23070a3785d0466a4bbad18924e46206e58",
+    "survey/render.py": "2f610ebe988976ad722d3800c85138c3ec0f9f6556faa87723ab659e7fd814ab",
+    "survey/verify_compiler.py": "bbd9afcb37a0febdc322d39b4c43f4d9f55fae047a3d7cf4f4f3925dcc5c3176",
+    "survey/verify_exact.py": "2be532aaa9af1a451d5fbc0543c2c06a2de393aa7286e119ddcda5dafb97278c",
+    "constructive/corona.py": "9c24d32d8e1a771d8be6b0bebe7affc2c9d2d88f5868612d51226784bc5bcc62",
+    "constructive/export_exact.py": "935cc676bf60af2797d8453d0a00ec3dc388d7dd9b5e33f8049b2aa279198acb",
+    "constructive/membrane.py": "b41afb8ac2ecc9d9b83def2273e904d7b1f074140f390d755f0aade88eeb4673",
+    "constructive/render_membrane.py": "b94378789e3e775ea71e393b5300e39272f7e5b9bace6ac4428bcd415d49e3bb",
+    "constructive/tangent_views.py": "dd01778729a179512917200f09326de69e8d2e4d672d00ac5fca2e12c0d1e8d5",
+    "constructive/overlaps/certify_bounds.py": "3695ffb313ad168855b0045975444e758e25f4b9336b14e7ca889cbbdbcdcc30",
+    "constructive/overlaps/export_norm13.py": "1dd1f3f422ca332d21605f66b4d8427ca60941c1da242693a32bc41662aa953a",
+    "constructive/overlaps/find_relations.py": "1e1b2c6d6f61263f38d7289bb3fa1c3cb8c2476742530e2c69c6232708ac3b74",
+    "constructive/overlaps/free_rotations.py": "7e958e01a72041807b693ed92939c53e1277a94a0b63ebe9e7e8fc3c24693132",
+    "constructive/overlaps/screen_short_words.py": "0ace7c17e4c437fe6a1c742dd176eac60e5817b696568b2b90c6302ce4ddf324",
+    "constructive/tangent_bounds/certify.py": "5301274d8d3614c473f5229cc133f7db3bc671cb4ce455f6bf2558a2e25f2b27",
+    "research/verify_link.py": "32562dd5f9790b2c4e39c15cb9ceafc646575ff62a3daa1c643c7ebd410557ce"
+  },
+  "certificate_sha256": {
+    "research/link_certificate.json": "85b8676c9023b7ca0f8972fb417a3606f24760f3515522954975e65358b92123",
+    "survey/axis-variants-exact-certificate.json": "defb9cad11066c4ee0eaf465f88bfee85f78816d343238cd59c1b6604beae3c5",
+    "survey/compiler-verification.json": "628823ec2f8a1ac4e759f216501c4b705aabed643847b23ded11cf65349a889e",
+    "survey/dense-variants-exact-certificate.json": "ce628898062653274748578ee123465828eee4d0cbfdd5b030dda66303c41a69",
+    "survey/exact_certificate.json": "dec0af843ec0a950c4ae55037805a1e22b36c04a7614b04a2647331628c494eb",
+    "survey/low-dimension-exact-certificate.json": "92bc1f0971dbdb145316cdb91d9bd7aac0f55d4d202d56a58adecfcd7fb64ec4",
+    "constructive/overlaps/free_rotation_certificate.json": "502e75041945170676f521d950bac879c7c89005a2e8f73e5d1fa2ae0f8efb58",
+    "constructive/overlaps/norm13_certificate.json": "9d3362200f0b11f6723a931a4f9f94d6da93a6188b2b0514a755b45e5ea6acdb",
+    "constructive/overlaps/original125_certificate.json": "786e25d89eef999211882dacd13ee35450e758e871c8ba4fd54dedea0ddb59f5",
+    "constructive/overlaps/short_word_screen.json": "9865712b590153b53e147aa214431c1af36105550334b431f1c3ca0cdc64e0ad",
+    "constructive/tangent_bounds/certificate.json": "c441694b950fcf7b8311ba9c9dd718b3d1223ba732262620749a0cba6229e60f"
+  },
+  "scope": "Finite exact and numerical implementation checks. Analytic proofs require mathematical review; historical novelty is unresolved."
+}

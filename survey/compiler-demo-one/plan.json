@@ -1,0 +1,131 @@
+{
+  "schema": "polygon-graph-ifs-plan-v1",
+  "name": "Borromean rectangle seed, take C3 orbit around (1,1,1)",
+  "canonical_graph": {
+    "name": "Borromean rectangle seed, take C3 orbit around (1,1,1)",
+    "vertices": [
+      [
+        "-2",
+        "-1",
+        "0"
+      ],
+      [
+        "-2",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2",
+        "-1",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "0"
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "attachments": [
+      [
+        0,
+        2
+      ]
+    ],
+    "original_component_count": 1,
+    "attachment_rule": "Join each component not already meeting the source interval to0 at its smallest-norm vertex; ties lexicographic.",
+    "connected_after_including_source_interval": true
+  },
+  "definition": {
+    "axis_endpoint": [
+      "2",
+      "2",
+      "2"
+    ],
+    "axis_pieces": 6,
+    "symmetry_order": 3,
+    "symmetry_generator": "Right-handed rotation by2*pi/n about B; identity if n=1.",
+    "central_scale": "1/8",
+    "kernel_count": 4,
+    "kernel_rotation_cos": "3/5",
+    "kernel_rotation_sin": "4/5",
+    "kernel_axes": "n=1:global x,y. n>=2:orbit of a=B+(B cross e_j), where j minimizes |B_j|.",
+    "edge_roll_half_tangent": "1/2",
+    "axis_roll_half_tangent": "0",
+    "subdivision_power_of_two": 2,
+    "subdivisions_exact": "2^2"
+  },
+  "certificate": {
+    "epsilon_effective": "1",
+    "hausdorff_strict_upper": "2",
+    "axis_cover_upper": "16666666666666666667/100000000000000000000",
+    "central_cover_upper": "1/16",
+    "remaining_edge_budget": "77083333333333333333/100000000000000000000",
+    "unsubdivided_edge_coefficient_upper": "281250000000000000009/100000000000000000000",
+    "edge_power_bounds": [
+      {
+        "seed_ratio_squared": "1/12",
+        "multiplicity": 2,
+        "power": "1",
+        "rational_upper": "4166666666666666667/50000000000000000000"
+      },
+      {
+        "seed_ratio_squared": "5/48",
+        "multiplicity": 1,
+        "power": "1",
+        "rational_upper": "10416666666666666667/100000000000000000000"
+      },
+      {
+        "seed_ratio_squared": "1/3",
+        "multiplicity": 2,
+        "power": "1",
+        "rational_upper": "16666666666666666667/50000000000000000000"
+      }
+    ],
+    "subdivision_inequality": "2^(2*1) > (C/budget)^1",
+    "largest_unsubdivided_ratio_squared": "1/3",
+    "all_graph_ratios_at_most_half": true,
+    "max_translation_norm_upper": "1732050807569/500000000000",
+    "invariant_ball_radius": "1732050807569/250000000000",
+    "exact_arithmetic": "Fraction and integer-root bounds; no floating acceptance decisions.",
+    "topological_dimension": 1,
+    "assouad_dimension": 3,
+    "ball_tangents": "Every normalized radius tends to the unit ball at each cylinder centre; analytic theorem in GRAPH_COMPILER.md."
+  },
+  "allocation": {
+    "seed_edges_with_attachments": 5,
+    "symmetry_copies": 3,
+    "map_count_exact_expression": "15*2^2+10",
+    "map_count": "70",
+    "maximum_allowed_maps": 50000,
+    "materialization_allowed": true,
+    "map_arrays_allocated": false,
+    "status": "ready"
+  }
+}

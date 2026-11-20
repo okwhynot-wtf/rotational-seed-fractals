@@ -1,0 +1,18 @@
+{
+  "subject": "../constructive/MEMBRANE.md and stated Q matrix",
+  "independent_integer_checks": {
+    "orthogonal_scaled_matrix": true,
+    "proper_determinant": true,
+    "axis_fixed": true,
+    "trace_cosine": true,
+    "two_axis_cross": [
+      -12,
+      -12,
+      16
+    ],
+    "volume_sum": "9/16"
+  },
+  "analytic_review": "No defect found in retained-square, connectedness, symmetry, topological dimension 2, dense-rotation, every-scale ball tangent, Assouad dimension 3, or OSC-obstruction arguments.",
+  "simplification": "Use axes a=(4,0,3)/5 and Z a=(0,4,3)/5 directly for the two dense circle groups; no Q1 a computation needed.",
+  "scope": "Independent within-agent-team check, not external peer review or formal proof."
+}

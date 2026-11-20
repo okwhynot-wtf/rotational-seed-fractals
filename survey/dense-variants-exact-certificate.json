@@ -1,0 +1,47 @@
+[
+  {
+    "id": "borromean-m1-q0-a1_3-overlap-c1_8-ax6",
+    "subdivisions": 1,
+    "axis_subdivisions": 6,
+    "central_overlap": true,
+    "central_scale": "1/8",
+    "invariant_radius": "3",
+    "edge_scale_squared": "1/12",
+    "edge_scale_rational_upper": "289/1000",
+    "largest_edge_midpoint_squared": "17/4",
+    "volume_cover_rational_upper": "8792599219/9000000000",
+    "hausdorff_dimension_strict_upper": "3",
+    "dimension_cover_rational_upper": "9737844652109237/10000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "id": "borromean-m1-q1_2-a1_3-overlap-c1_8-ax6",
+    "subdivisions": 1,
+    "axis_subdivisions": 6,
+    "central_overlap": true,
+    "central_scale": "1/8",
+    "invariant_radius": "3",
+    "edge_scale_squared": "1/12",
+    "edge_scale_rational_upper": "289/1000",
+    "largest_edge_midpoint_squared": "17/4",
+    "volume_cover_rational_upper": "8792599219/9000000000",
+    "hausdorff_dimension_strict_upper": "3",
+    "dimension_cover_rational_upper": "9737844652109237/10000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  },
+  {
+    "id": "borromean-m1-q1-a1_3-overlap-c1_8-ax6",
+    "subdivisions": 1,
+    "axis_subdivisions": 6,
+    "central_overlap": true,
+    "central_scale": "1/8",
+    "invariant_radius": "3",
+    "edge_scale_squared": "1/12",
+    "edge_scale_rational_upper": "289/1000",
+    "largest_edge_midpoint_squared": "17/4",
+    "volume_cover_rational_upper": "8792599219/9000000000",
+    "hausdorff_dimension_strict_upper": "3",
+    "dimension_cover_rational_upper": "9737844652109237/10000000000000000",
+    "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds"
+  }
+]

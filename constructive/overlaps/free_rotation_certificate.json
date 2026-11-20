@@ -1,0 +1,263 @@
+{
+  "norm5": {
+    "prime": 5,
+    "square_root_of_minus_one": 2,
+    "generators": [
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        -2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        -2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        -2
+      ]
+    ],
+    "nonzero_rank_one_matrices": 6,
+    "ordered_pairs_checked": 36,
+    "zero_products_exactly_inverse_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ]
+  },
+  "norm13": {
+    "prime": 13,
+    "square_root_of_minus_one": 5,
+    "generators": [
+      [
+        1,
+        -2,
+        -2,
+        -2
+      ],
+      [
+        1,
+        -2,
+        -2,
+        2
+      ],
+      [
+        1,
+        -2,
+        2,
+        -2
+      ],
+      [
+        1,
+        -2,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        -2,
+        -2
+      ],
+      [
+        1,
+        2,
+        -2,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        -2
+      ],
+      [
+        1,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        -2,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        2,
+        0
+      ],
+      [
+        3,
+        0,
+        -2,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        -2
+      ]
+    ],
+    "nonzero_rank_one_matrices": 14,
+    "ordered_pairs_checked": 196,
+    "zero_products_exactly_inverse_pairs": [
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        12
+      ]
+    ]
+  },
+  "original_Q_quaternion": [
+    5,
+    8,
+    0,
+    6
+  ],
+  "original_Q_free_word": "Y^-1 T^-1 Y",
+  "original_C4_orbit_words": [
+    "Y^-1 T^-1 Y",
+    "X T^-1 X^-1",
+    "Y T^-1 Y^-1",
+    "X^-1 T^-1 X"
+  ],
+  "notation": "X,Y,T denote the norm-5 rotations about the coordinate axes; T is not the C4 symmetry rotation.",
+  "norm13_core_quaternions": [
+    [
+      1,
+      2,
+      2,
+      2
+    ],
+    [
+      1,
+      -2,
+      2,
+      2
+    ],
+    [
+      1,
+      -2,
+      -2,
+      2
+    ],
+    [
+      1,
+      2,
+      -2,
+      2
+    ]
+  ],
+  "scope": "Finite premises checked here; full reduced-word argument is in OVERLAPS.md."
+}

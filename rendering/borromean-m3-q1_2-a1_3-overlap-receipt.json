@@ -1,0 +1,28 @@
+{
+  "id": "borromean-m3-q1_2-a1_3-overlap",
+  "grid": 256,
+  "points": 8000000,
+  "samples": "random orbit samples from exact recipe, binary64 approximation",
+  "skin_in_voxels": 0.85,
+  "purpose": "finite surface envelope; not evidence of mathematical solidity or topology",
+  "renders": [
+    {
+      "file": "borromean-m3-q1_2-a1_3-overlap-oblique.png",
+      "azimuth": -48,
+      "elevation": 27,
+      "seconds": 0.17256617546081543
+    },
+    {
+      "file": "borromean-m3-q1_2-a1_3-overlap-axis.png",
+      "azimuth": 45,
+      "elevation": 35.26438968,
+      "seconds": 0.0702059268951416
+    },
+    {
+      "file": "borromean-m3-q1_2-a1_3-overlap-side.png",
+      "azimuth": -90,
+      "elevation": 8,
+      "seconds": 0.07236385345458984
+    }
+  ]
+}

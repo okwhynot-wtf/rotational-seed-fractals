@@ -1,0 +1,5 @@
+{
+  "name": "Borromean rectangle seed, take C3 orbit around (1,1,1)",
+  "vertices": [["-2","-1","0"],["2","-1","0"],["2","1","0"],["-2","1","0"]],
+  "edges": [[0,1],[1,2],[2,3],[3,0]]
+}

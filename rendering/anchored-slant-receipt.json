@@ -1,0 +1,25 @@
+{
+  "depth": 5,
+  "triangles": 361938,
+  "geometry": "Exact contained square sheets through finite word depth; residual set omitted. No artificial sheet thickness.",
+  "renders": [
+    {
+      "file": "anchored-slant-oblique.png",
+      "azimuth": -55,
+      "elevation": 27,
+      "seconds": 0.15781211853027344
+    },
+    {
+      "file": "anchored-slant-above.png",
+      "azimuth": -45,
+      "elevation": 65,
+      "seconds": 0.06302762031555176
+    },
+    {
+      "file": "anchored-slant-low.png",
+      "azimuth": -40,
+      "elevation": 12,
+      "seconds": 0.05100584030151367
+    }
+  ]
+}

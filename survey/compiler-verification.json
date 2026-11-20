@@ -1,0 +1,31 @@
+{
+  "plans": [
+    {
+      "plan": "compiler-demo-one\\plan.json",
+      "rational_certificate": "passed",
+      "hausdorff_strict_upper": "2",
+      "subdivision_exponent": 2,
+      "map_count_expression": "15*2^2+10",
+      "materialization_allowed": true
+    },
+    {
+      "plan": "compiler-demo-half\\plan.json",
+      "rational_certificate": "passed",
+      "hausdorff_strict_upper": "3/2",
+      "subdivision_exponent": 6,
+      "map_count_expression": "15*2^6+10",
+      "materialization_allowed": true
+    },
+    {
+      "plan": "compiler-demo-estimate\\plan.json",
+      "rational_certificate": "passed",
+      "hausdorff_strict_upper": "101/100",
+      "subdivision_exponent": 876,
+      "map_count_expression": "15*2^876+10",
+      "materialization_allowed": false
+    }
+  ],
+  "allocation_guard": "passed before array construction",
+  "canonical_graph_case": "duplicate vertices/reversed edge merged; isolated component attached",
+  "scope": "Exact scalar certificate audit plus meaningful planner checks; topology theorem reviewed separately."
+}

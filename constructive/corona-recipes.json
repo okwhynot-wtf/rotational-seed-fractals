@@ -1,0 +1,92 @@
+[
+  {
+    "kind": "slant",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.35,
+    "hausdorff_upper": 2.511770381934171,
+    "cubed_ratio_sum": 0.6755,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "slant",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.45,
+    "hausdorff_upper": 2.811060389431341,
+    "cubed_ratio_sum": 0.8685,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "slant",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.49,
+    "hausdorff_upper": 2.963742224057751,
+    "cubed_ratio_sum": 0.974596,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "radial",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.35,
+    "hausdorff_upper": 2.511770381934171,
+    "cubed_ratio_sum": 0.6755,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "radial",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.45,
+    "hausdorff_upper": 2.811060389431341,
+    "cubed_ratio_sum": 0.8685,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "radial",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.49,
+    "hausdorff_upper": 2.963742224057751,
+    "cubed_ratio_sum": 0.974596,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "tangent",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.45,
+    "hausdorff_upper": 2.811060389431341,
+    "cubed_ratio_sum": 0.8685,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "sweep",
+    "anchor": "corner",
+    "q": 0.1,
+    "r": 0.45,
+    "hausdorff_upper": 2.811060389431341,
+    "cubed_ratio_sum": 0.8685,
+    "depth": 4,
+    "rendered_triangles": 30162
+  },
+  {
+    "kind": "sweep",
+    "anchor": "edge",
+    "q": 0.1,
+    "r": 0.49,
+    "hausdorff_upper": 2.963742224057751,
+    "cubed_ratio_sum": 0.974596,
+    "depth": 4,
+    "rendered_triangles": 30162
+  }
+]

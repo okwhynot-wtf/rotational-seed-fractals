@@ -1,0 +1,27 @@
+{
+  "subdivisions": 6,
+  "axis_subdivisions": 6,
+  "central_overlap": true,
+  "central_scale": "1/8",
+  "invariant_radius": "5/2",
+  "edge_scale_squared": "1/432",
+  "edge_scale_rational_upper": "289/6000",
+  "largest_edge_midpoint_squared": "697/144",
+  "volume_cover_rational_upper": "2222615191/36000000000",
+  "hausdorff_dimension_strict_upper": "23/12",
+  "dimension_cover_rational_upper": "4826655546788251/5000000000000000",
+  "all_scalar_inequalities": "passed using fractions.Fraction and integer root bounds",
+  "unlinked_control": {
+    "same_contraction_ratios": true,
+    "invariant_radius": "4",
+    "ring_translation_norm_squared_upper": "13",
+    "spanning_disks": [
+      "[1,3]x[-2,2]x{0}",
+      "{0}x[1,3]x[-2,2]",
+      "[-2,2]x{0}x[1,3]"
+    ],
+    "unlink_proof": "Each pair of these spanning disks is disjoint: the fixed0 coordinate of one lies outside the other positive[1,3] interval."
+  },
+  "topological_dimension": 1,
+  "topological_dimension_reason": "1<=dim_top K<=dim_H K<23/12<2 and topological dimension is integer-valued."
+}

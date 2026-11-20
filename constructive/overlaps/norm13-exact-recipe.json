@@ -1,0 +1,266 @@
+{
+  "model": "norm13",
+  "q": "1/4",
+  "maps": [
+    {
+      "id": "f0",
+      "kind": "square",
+      "contraction": "1/2",
+      "linear": [
+        [
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "translation": [
+        "-1/2",
+        "-1/2",
+        "0"
+      ],
+      "fixed_anchor": null
+    },
+    {
+      "id": "f1",
+      "kind": "square",
+      "contraction": "1/2",
+      "linear": [
+        [
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "translation": [
+        "-1/2",
+        "1/2",
+        "0"
+      ],
+      "fixed_anchor": null
+    },
+    {
+      "id": "f2",
+      "kind": "square",
+      "contraction": "1/2",
+      "linear": [
+        [
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "translation": [
+        "1/2",
+        "-1/2",
+        "0"
+      ],
+      "fixed_anchor": null
+    },
+    {
+      "id": "f3",
+      "kind": "square",
+      "contraction": "1/2",
+      "linear": [
+        [
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "translation": [
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "fixed_anchor": null
+    },
+    {
+      "id": "f4",
+      "kind": "core",
+      "contraction": "1/4",
+      "linear": [
+        [
+          "-3/52",
+          "1/13",
+          "3/13"
+        ],
+        [
+          "3/13",
+          "-3/52",
+          "1/13"
+        ],
+        [
+          "1/13",
+          "3/13",
+          "-3/52"
+        ]
+      ],
+      "translation": [
+        "0",
+        "0",
+        "0"
+      ],
+      "fixed_anchor": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "f5",
+      "kind": "core",
+      "contraction": "1/4",
+      "linear": [
+        [
+          "-3/52",
+          "-3/13",
+          "-1/13"
+        ],
+        [
+          "-1/13",
+          "-3/52",
+          "3/13"
+        ],
+        [
+          "-3/13",
+          "1/13",
+          "-3/52"
+        ]
+      ],
+      "translation": [
+        "0",
+        "0",
+        "0"
+      ],
+      "fixed_anchor": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "f6",
+      "kind": "core",
+      "contraction": "1/4",
+      "linear": [
+        [
+          "-3/52",
+          "1/13",
+          "-3/13"
+        ],
+        [
+          "3/13",
+          "-3/52",
+          "-1/13"
+        ],
+        [
+          "-1/13",
+          "-3/13",
+          "-3/52"
+        ]
+      ],
+      "translation": [
+        "0",
+        "0",
+        "0"
+      ],
+      "fixed_anchor": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "f7",
+      "kind": "core",
+      "contraction": "1/4",
+      "linear": [
+        [
+          "-3/52",
+          "-3/13",
+          "1/13"
+        ],
+        [
+          "-1/13",
+          "-3/52",
+          "-3/13"
+        ],
+        [
+          "3/13",
+          "-1/13",
+          "-3/52"
+        ]
+      ],
+      "translation": [
+        "0",
+        "0",
+        "0"
+      ],
+      "fixed_anchor": [
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "C4_permutation": [
+    2,
+    0,
+    3,
+    1,
+    5,
+    6,
+    7,
+    4
+  ],
+  "proof": "OVERLAPS.md",
+  "topological_dimension": 2,
+  "assouad_dimension": 3,
+  "hausdorff_dimension": "2 < dim_H K < 2.270907424784688; exact value unresolved",
+  "shortest_affine_overlap": [
+    "410033",
+    "211040"
+  ],
+  "native_import": "not tested",
+  "aifs_sha256": "49d29255b62c3417820177d9b46ec567bdfdcdaa8d341afce900c0507134a237"
+}

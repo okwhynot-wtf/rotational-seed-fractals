@@ -1,0 +1,1229 @@
+{
+  "model": "norm13",
+  "rotation": [
+    [
+      "-3/13",
+      "4/13",
+      "12/13"
+    ],
+    [
+      "12/13",
+      "-3/13",
+      "4/13"
+    ],
+    [
+      "4/13",
+      "12/13",
+      "-3/13"
+    ]
+  ],
+  "coefficient_definition": "q=1/4; other matrices as in parent membrane model",
+  "forbidden_count": 32,
+  "word_length": 6,
+  "contraction_power_of_two": 7,
+  "exact_affine_equalities_checked": 32,
+  "proper_prefix_suffix_overlap": false,
+  "relations": [
+    {
+      "left": [
+        4,
+        1,
+        0,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        4,
+        0
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -25,
+        7
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        4,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        4,
+        1
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -25,
+        9
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        4,
+        1,
+        0,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        4,
+        2
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -23,
+        7
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        4,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        4,
+        3
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -23,
+        9
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        4,
+        2,
+        3,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        4,
+        0
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        23,
+        -9
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        4,
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        4,
+        1
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        23,
+        -7
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        4,
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        4,
+        2
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        25,
+        -9
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        4,
+        2,
+        3,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        4,
+        3
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        25,
+        -7
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        5,
+        0,
+        2,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        5,
+        0
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -9,
+        -25
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        5,
+        0,
+        2,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        5,
+        1
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -9,
+        -23
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        5,
+        0,
+        2,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        5,
+        2
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -7,
+        -25
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        5,
+        0,
+        2,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        5,
+        3
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -7,
+        -23
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        5,
+        3,
+        1,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        0
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        7,
+        23
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        5,
+        3,
+        1,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        1
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        7,
+        25
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        5,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        2
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        9,
+        23
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        5,
+        3,
+        1,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        3
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        9,
+        25
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        6,
+        2,
+        3,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        6,
+        0
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        23,
+        -9
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        6,
+        2,
+        3,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        6,
+        1
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        23,
+        -7
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        6,
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        6,
+        2
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        25,
+        -9
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        6,
+        2,
+        3,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        1,
+        2,
+        2,
+        3,
+        6,
+        3
+      ],
+      "W": [
+        3,
+        -1,
+        0
+      ],
+      "V": [
+        -1,
+        3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        25,
+        -7
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        6,
+        1,
+        0,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        6,
+        0
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -25,
+        7
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        6,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        6,
+        1
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -25,
+        9
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        6,
+        1,
+        0,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        6,
+        2
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -23,
+        7
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        6,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        2,
+        1,
+        1,
+        0,
+        6,
+        3
+      ],
+      "W": [
+        -3,
+        1,
+        0
+      ],
+      "V": [
+        1,
+        -3,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -23,
+        9
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        7,
+        3,
+        1,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        7,
+        0
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        7,
+        23
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        7,
+        3,
+        1,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        7,
+        1
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        7,
+        25
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        7,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        7,
+        2
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        9,
+        23
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        7,
+        3,
+        1,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        0,
+        3,
+        3,
+        1,
+        7,
+        3
+      ],
+      "W": [
+        1,
+        3,
+        0
+      ],
+      "V": [
+        -3,
+        -1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        9,
+        25
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    },
+    {
+      "left": [
+        7,
+        0,
+        2,
+        0,
+        3,
+        3
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        7,
+        0
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -9,
+        -25
+      ],
+      "short_inner_numerators": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        7,
+        0,
+        2,
+        1,
+        2,
+        2
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        7,
+        1
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -9,
+        -23
+      ],
+      "short_inner_numerators": [
+        -1,
+        1
+      ]
+    },
+    {
+      "left": [
+        7,
+        0,
+        2,
+        2,
+        1,
+        1
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        7,
+        2
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -7,
+        -25
+      ],
+      "short_inner_numerators": [
+        1,
+        -1
+      ]
+    },
+    {
+      "left": [
+        7,
+        0,
+        2,
+        3,
+        0,
+        0
+      ],
+      "right": [
+        3,
+        0,
+        0,
+        2,
+        7,
+        3
+      ],
+      "W": [
+        -1,
+        -3,
+        0
+      ],
+      "V": [
+        3,
+        1,
+        0
+      ],
+      "outer_length": 4,
+      "long_inner_numerators": [
+        -7,
+        -23
+      ],
+      "short_inner_numerators": [
+        1,
+        1
+      ]
+    }
+  ],
+  "improved_bound": {
+    "y_rational_lower": "349130502775516136314441440275852486913475822687549958308029244117029/1684996666696914987166688442938726917102321526408785780068975640576000",
+    "y_rational_upper": "43641312846939517039305180034481560864184477835943744788503655514629/210624583337114373395836055367340864637790190801098222508621955072000",
+    "polynomial": "4*y+4*y^2-32*y^7-1",
+    "unique_root_interval": [
+      "207/1000",
+      "21/100"
+    ],
+    "dimension_expression": "-log_2(y), where y is the bracketed root",
+    "dimension_diagnostic": "2.2709074247846875676948996955559288196157690539588803316150255490",
+    "rounded_up_12_places": "2.270907424785",
+    "certified_dimension_lower_15_places": "2.270907424784687",
+    "certified_dimension_upper_15_places": "2.270907424784688",
+    "logarithm_certificate": "64-term rational atanh series with explicit geometric tail bound",
+    "improvement_diagnostic": "0.0006458783789244049487126742955354419567901833063275062812810798",
+    "recurrence_stability_check": "(L-1)*32*y^p<1 verified at rational upper endpoint"
+  }
+}

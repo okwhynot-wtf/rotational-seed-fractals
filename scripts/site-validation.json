@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "html_pages": 8,
+  "local_links_checked": 211,
+  "repository_source_links_checked": 64,
+  "images_with_alt_checked": 8,
+  "labelled_videos_checked": 4,
+  "pending_media": [],
+  "errors": [],
+  "scope": "Static local validation; not video decoding, external URL validation, or browser visual review."
+}

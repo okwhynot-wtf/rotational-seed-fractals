@@ -1,0 +1,41 @@
+{
+  "scope": "Diagnostic only: maximum over 12000 Fibonacci-sphere probes; not a rigorous uniform upper bound.",
+  "rows": [
+    {
+      "word_depth": 0,
+      "number_of_disks": 1,
+      "sampled_max_distance_to_disks": 0.9999166666666667,
+      "scale_threshold": 1.0
+    },
+    {
+      "word_depth": 1,
+      "number_of_disks": 5,
+      "sampled_max_distance_to_disks": 0.566515460432172,
+      "scale_threshold": 0.25
+    },
+    {
+      "word_depth": 2,
+      "number_of_disks": 21,
+      "sampled_max_distance_to_disks": 0.43868649181592,
+      "scale_threshold": 0.0625
+    },
+    {
+      "word_depth": 3,
+      "number_of_disks": 85,
+      "sampled_max_distance_to_disks": 0.3266527786668588,
+      "scale_threshold": 0.015625
+    },
+    {
+      "word_depth": 4,
+      "number_of_disks": 341,
+      "sampled_max_distance_to_disks": 0.2004642533389481,
+      "scale_threshold": 0.00390625
+    },
+    {
+      "word_depth": 5,
+      "number_of_disks": 1365,
+      "sampled_max_distance_to_disks": 0.07999666767779388,
+      "scale_threshold": 0.0009765625
+    }
+  ]
+}

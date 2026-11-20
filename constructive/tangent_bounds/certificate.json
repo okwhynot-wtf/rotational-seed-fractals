@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "construction": "Original denominator-125 membrane, q=1/4",
+  "method": "Antipodal rational cube-face mesh; floating proposal, exact integer witness verification.",
+  "bounds": [
+    {
+      "depth": 3,
+      "core_words_up_to_depth_including_empty": 85,
+      "cube_subdivisions": 200,
+      "checked_points": 120000,
+      "full_sphere_mesh_points": 240000,
+      "scale_threshold": "1/64",
+      "largest_witness_distance_squared": {
+        "numerator": 41046099598729,
+        "denominator": 374670410156250,
+        "decimal_upper": "0.109552552020"
+      },
+      "mesh_plane_distance_upper": {
+        "numerator": 165493619227,
+        "denominator": 500000000000,
+        "decimal_upper": "0.330987238454"
+      },
+      "sphere_mesh_radius_upper": {
+        "numerator": 3,
+        "denominator": 400,
+        "decimal_upper": "0.007500000000"
+      },
+      "full_ball_hausdorff_distance_upper": {
+        "numerator": 169243619227,
+        "denominator": 500000000000,
+        "decimal_upper": "0.338487238454"
+      },
+      "worst_mesh_point": {
+        "cube_point_numerator": [
+          200,
+          19,
+          -145
+        ],
+        "normal_index": 79
+      },
+      "integer_arithmetic_verification": true,
+      "scope": "For every 0 < t <= 4^(-depth), at the origin of the original eight-map q=1/4 membrane.",
+      "witness_file": "witness-depth3-mesh200.json",
+      "witness_sha256": "a2f33480769e37b9f80f5f6b085ad49b975982db209627be2da9ef18b7493769",
+      "elapsed_seconds_diagnostic": 0.391
+    },
+    {
+      "depth": 4,
+      "core_words_up_to_depth_including_empty": 341,
+      "cube_subdivisions": 200,
+      "checked_points": 120000,
+      "full_sphere_mesh_points": 240000,
+      "scale_threshold": "1/256",
+      "largest_witness_distance_squared": {
+        "numerator": 393506211934081,
+        "denominator": 9355773925781250,
+        "decimal_upper": "0.042060252317"
+      },
+      "mesh_plane_distance_upper": {
+        "numerator": 205085963237,
+        "denominator": 1000000000000,
+        "decimal_upper": "0.205085963237"
+      },
+      "sphere_mesh_radius_upper": {
+        "numerator": 3,
+        "denominator": 400,
+        "decimal_upper": "0.007500000000"
+      },
+      "full_ball_hausdorff_distance_upper": {
+        "numerator": 212585963237,
+        "denominator": 1000000000000,
+        "decimal_upper": "0.212585963237"
+      },
+      "worst_mesh_point": {
+        "cube_point_numerator": [
+          200,
+          17,
+          -145
+        ],
+        "normal_index": 111
+      },
+      "integer_arithmetic_verification": true,
+      "scope": "For every 0 < t <= 4^(-depth), at the origin of the original eight-map q=1/4 membrane.",
+      "witness_file": "witness-depth4-mesh200.json",
+      "witness_sha256": "002109095adbebab7ad1fb580c88b6e09d3bd121cd3e8b4bfbc8a0cb03564104",
+      "elapsed_seconds_diagnostic": 0.575
+    },
+    {
+      "depth": 5,
+      "core_words_up_to_depth_including_empty": 1365,
+      "cube_subdivisions": 200,
+      "checked_points": 120000,
+      "full_sphere_mesh_points": 240000,
+      "scale_threshold": "1/1024",
+      "largest_witness_distance_squared": {
+        "numerator": 659692156729448386489,
+        "denominator": 91472268104553222656250,
+        "decimal_upper": "0.007211936147"
+      },
+      "mesh_plane_distance_upper": {
+        "numerator": 42461559517,
+        "denominator": 500000000000,
+        "decimal_upper": "0.084923119034"
+      },
+      "sphere_mesh_radius_upper": {
+        "numerator": 3,
+        "denominator": 400,
+        "decimal_upper": "0.007500000000"
+      },
+      "full_ball_hausdorff_distance_upper": {
+        "numerator": 46211559517,
+        "denominator": 500000000000,
+        "decimal_upper": "0.092423119034"
+      },
+      "worst_mesh_point": {
+        "cube_point_numerator": [
+          200,
+          19,
+          -145
+        ],
+        "normal_index": 1285
+      },
+      "integer_arithmetic_verification": true,
+      "scope": "For every 0 < t <= 4^(-depth), at the origin of the original eight-map q=1/4 membrane.",
+      "witness_file": "witness-depth5-mesh200.json",
+      "witness_sha256": "57b6ddb6729128247686be7370307f50720cc5271c05ece52fadb8affb69fa02",
+      "elapsed_seconds_diagnostic": 1.088
+    },
+    {
+      "depth": 6,
+      "core_words_up_to_depth_including_empty": 5461,
+      "cube_subdivisions": 200,
+      "checked_points": 120000,
+      "full_sphere_mesh_points": 240000,
+      "scale_threshold": "1/4096",
+      "largest_witness_distance_squared": {
+        "numerator": 280974188863262448826129,
+        "denominator": 1483084633946418762207031250,
+        "decimal_upper": "0.000189452566"
+      },
+      "mesh_plane_distance_upper": {
+        "numerator": 2752835379,
+        "denominator": 200000000000,
+        "decimal_upper": "0.013764176895"
+      },
+      "sphere_mesh_radius_upper": {
+        "numerator": 3,
+        "denominator": 400,
+        "decimal_upper": "0.007500000000"
+      },
+      "full_ball_hausdorff_distance_upper": {
+        "numerator": 4252835379,
+        "denominator": 200000000000,
+        "decimal_upper": "0.021264176895"
+      },
+      "worst_mesh_point": {
+        "cube_point_numerator": [
+          200,
+          17,
+          -153
+        ],
+        "normal_index": 3524
+      },
+      "integer_arithmetic_verification": true,
+      "scope": "For every 0 < t <= 4^(-depth), at the origin of the original eight-map q=1/4 membrane.",
+      "witness_file": "witness-depth6-mesh200.json",
+      "witness_sha256": "1bbb084a5072c4db936e0071d3e93dbbb5422833f9b7b7d30a0818648b182e5b",
+      "elapsed_seconds_diagnostic": 3.529
+    },
+    {
+      "depth": 7,
+      "core_words_up_to_depth_including_empty": 21845,
+      "cube_subdivisions": 200,
+      "checked_points": 120000,
+      "full_sphere_mesh_points": 240000,
+      "scale_threshold": "1/16384",
+      "largest_witness_distance_squared": {
+        "numerator": 106654459024228594471729,
+        "denominator": 33710384741425514221191406250,
+        "decimal_upper": "0.000003163846"
+      },
+      "mesh_plane_distance_upper": {
+        "numerator": 177872027,
+        "denominator": 100000000000,
+        "decimal_upper": "0.001778720270"
+      },
+      "sphere_mesh_radius_upper": {
+        "numerator": 3,
+        "denominator": 400,
+        "decimal_upper": "0.007500000000"
+      },
+      "full_ball_hausdorff_distance_upper": {
+        "numerator": 927872027,
+        "denominator": 100000000000,
+        "decimal_upper": "0.009278720270"
+      },
+      "worst_mesh_point": {
+        "cube_point_numerator": [
+          200,
+          15,
+          -133
+        ],
+        "normal_index": 10067
+      },
+      "integer_arithmetic_verification": true,
+      "scope": "For every 0 < t <= 4^(-depth), at the origin of the original eight-map q=1/4 membrane.",
+      "witness_file": "witness-depth7-mesh200.json",
+      "witness_sha256": "60db8014f88fbbee5b99755eab65dc1844c59bbaa3f3f651b9203ec3ba981fbe",
+      "elapsed_seconds_diagnostic": 12.068
+    }
+  ]
+}

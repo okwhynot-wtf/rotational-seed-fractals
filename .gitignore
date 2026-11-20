@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.npz
+*.npy
+.venv/
+.build/
+_site/
+rendering/film-progress.json
+*.partial.mp4
+*.tmp
+*.log

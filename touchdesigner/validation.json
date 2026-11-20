@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "candidate": "open_link",
+      "points": 200000,
+      "source": "embedded exact-recipe numerical matrices",
+      "seed": 20261120,
+      "finite_sample": true,
+      "pixel_mean": 0.05483083799481392,
+      "pixel_max": 0.9411764740943909,
+      "pixel_sha256": "5d6e930c6158388bef362357a4df1a1bdaff576b4313e31714d3bc45ed654e87"
+    },
+    {
+      "candidate": "thin_link",
+      "points": 200000,
+      "source": "embedded exact-recipe numerical matrices",
+      "seed": 20261120,
+      "finite_sample": true,
+      "pixel_mean": 0.03583447262644768,
+      "pixel_max": 0.9411764740943909,
+      "pixel_sha256": "3c6e138d5233a3216ba81a0680c336472adb9a137687f6fc010a9c0bf04e0d21"
+    },
+    {
+      "candidate": "dense_link",
+      "points": 200000,
+      "source": "embedded exact-recipe numerical matrices",
+      "seed": 20261120,
+      "finite_sample": true,
+      "pixel_mean": 0.0783858373761177,
+      "pixel_max": 0.9411764740943909,
+      "pixel_sha256": "3b5df53577b2a3900f299d73ba3d027e88752dd708caf8eec2820f6338ebf6d4"
+    }
+  ],
+  "operator_messages": [],
+  "project_folder": "C:/Users/matts/Documents/fractal/porous-lantern-publication/touchdesigner",
+  "project_name": "Porous-Lantern.1.toe",
+  "toe_saved": false,
+  "point_storage_remaining": false
+}
