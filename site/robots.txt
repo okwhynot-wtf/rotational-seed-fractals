@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://okwhynot-wtf.github.io/rotational-seed-fractals/sitemap.xml

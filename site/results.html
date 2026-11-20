@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><meta name="theme-color" content="#080d10"><title>Results and their scope · Rotational Seed Fractals</title><meta name="description" content="Exact self-similar spatial constructions: a linked threefold continuum, a fourfold membrane, and dense full-ball tangent points. Candidate families; research in progress."><link rel="canonical" href="https://okwhynot-wtf.github.io/rotational-seed-fractals/results.html"><meta property="og:title" content="Results and their scope · Rotational Seed Fractals"><meta property="og:description" content="Exact self-similar spatial constructions: a linked threefold continuum, a fourfold membrane, and dense full-ball tangent points. Candidate families; research in progress."><meta property="og:type" content="website"><meta property="og:image" content="https://okwhynot-wtf.github.io/rotational-seed-fractals/assets/hero-poster.jpg"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/site.css"><script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']],processEscapes:true},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script defer src="assets/site.js"></script></head><body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 3 35 12 35 29 20 37 5 29 5 12Z M20 3 20 37 M5 12 35 29 M35 12 5 29" stroke="currentColor" stroke-width="1.2"/><path d="m20 12 7 4v8l-7 4-7-4v-8Z" stroke="currentColor" stroke-width="1.2"/></svg><span>ROTATIONAL<br>SEED FRACTALS</span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html#families">Families</a><a href="results.html">Results</a><a href="paper.html">Paper draft</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals">GitHub</a></nav><details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation"><a href="index.html#families">Families</a><a href="results.html">Results</a><a href="paper.html">Paper draft</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals">GitHub</a></nav></details></header><main id="main"><div class="doc-shell"><aside class="doc-nav" aria-label="Research documentation"><p>Research notebook</p><a href="definition.html">Definitions</a><a href="results.html" aria-current="page">Results</a><a href="related.html">Related work</a><a href="reproduce.html">Reproduce</a><a href="paper.html">Paper draft</a><a href="media.html">Media</a><a href="provenance.html">Provenance</a><div class="source-nav"><p>Evidence</p><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/INDEPENDENT_REVIEW.md">Internal review</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/PRIOR_ART.md">Literature audit</a></div></aside><article class="prose"><h1 id="results-and-their-scope">Results and their scope</h1>
+<p>The mathematical arguments concern the infinite attractors. Exact arithmetic checks support specific finite claims; images illustrate finite approximations. Independent external mathematical review is pending.</p>
+<h2 id="a-full-ball-in-the-zoom-limit">A full ball in the zoom limit</h2>
+<p>At a dense set of cylinder centres \(p=f_w(0)\), both central-rotation constructions satisfy</p>
+<p>\[
+\lim_{t\downarrow0}d_H\left(((K-p)/t)\cap\overline B(0,1),\overline B(0,1)\right)=0.
+\]</p>
+<p>The limit holds through every sufficiently small scale at these fixed centres. It does not assert that every point has this behaviour, or that a finite-scale piece contains a ball.</p>
+<p>The proof is short. Retained centred segments or disks occur in dense orientations. Choose finitely many directions giving any desired accuracy. Their positive radii have a positive minimum. Below that radius, every normalized view contains the entire chosen directional net. The result transfers to all cylinder centres, which are dense in K.</p>
+<p>These full-ball tangents force Assouad dimension three, even though the original sets have zero volume.</p>
+<h2 id="quantitative-zoom-bounds-and-the-assouad-spectrum">Quantitative zoom bounds and the Assouad spectrum</h2>
+<p>The stated graph and membrane constructions admit a stronger conclusion. Their central rotations have algebraic entries and generate a dense subgroup of SO(3). An analytic corollary of <a href="https://www.math.univ-paris13.fr/~desaxce/publications/spectral_gap.pdf">Benoist–de Saxcé's spectral-gap theorem, Theorem 1.2</a> gives, at each cylinder centre p,</p>
+<p>\[
+d_H\left(((K-p)/R)\cap\overline B,\overline B\right)\leq C_p R^\alpha
+\]</p>
+<p>for all sufficiently small R, with some common exponent \(\alpha&gt;0\). The constant and starting scale may depend on the centre. The exponent is existential: no numerical value of α or spectral-gap constant has been computed.</p>
+<p>Consequently the ordinary Assouad spectrum is three for every θ sufficiently close to one, and the quasi-Assouad dimension is three. The sufficient condition is \(\theta&gt;1/(1+\alpha)\); neither a numerical threshold nor the actual transition point is known. The <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/SPECTRAL_TANGENTS.md">derivation</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/SPECTRAL_TANGENTS_REVIEW.md">independent internal review</a> state the hypotheses and distinguish this analytic corollary from a claim of historical originality.</p>
+<p>The spectrum is also <strong>nonconstant</strong>. A global cylinder cover gives \(\dim_A^\theta K\leq\min\{3,s/(1-\theta)\}\) for a certified covering exponent s&lt;3. For example, the hero's spectrum is strictly below three when \(0&lt;\theta&lt;7/24\), and is three sufficiently near one. This separates two regimes without locating their exact transition.</p>
+<p>Separately, exact finite computations give explicit bounds for the <strong>original eight-map membrane with q=1/4</strong>. Write K for that reference attractor and B for the closed unit ball. At the origin, the following inequalities hold for <strong>every</strong> positive t below the corresponding threshold:</p>
+<table>
+<thead>
+<tr>
+<th>Maximum core-word depth</th>
+<th>Scale threshold</th>
+<th>Strict upper bound on \(d_H((K/t)\cap B,B)\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>t ≤ 1/1024</td>
+<td>0.092423119034</td>
+</tr>
+<tr>
+<td>6</td>
+<td>t ≤ 1/4096</td>
+<td>0.021264176895</td>
+</tr>
+<tr>
+<td>7</td>
+<td>t ≤ 1/16384</td>
+<td>0.009278720270</td>
+</tr>
+</tbody>
+</table>
+<p>The final row is less than one percent of the ball radius. These are bounds on the infinite set, not pixel measurements or assertions that it contains a solid ball. They do not apply unchanged to the 12-map anchored visual variant. Integer arithmetic checks 120,000 directional witnesses per depth, while a proved mesh-radius bound covers the directions between them. See the <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/tangent_bounds/README.md">proof and reproduction instructions</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/tangent_bounds/certificate.json">full certificate</a>. This finite certificate does not supply the unknown asymptotic exponent α.</p>
+<h2 id="graph-family">Graph family</h2>
+<p>Any finite connected polygonal spatial graph can be retained inside a connected finite similarity attractor. With sufficiently fine edge subdivisions and sufficiently small central contractions, for every \(\varepsilon&gt;0\) one obtains</p>
+<p>\[
+1&lt;\dim_H K&lt;1+\varepsilon,\qquad\dim_AK=3.
+\]</p>
+<p>The construction can be chosen with topological dimension one. Every neighbourhood contains a similar copy of the prescribed graph. The specific visually rendered members need not be the small-dimension members used in this existence statement.</p>
+<p>For the original m=2, q=1/4 Borromean extension, exact scalar checks certify \(\dim_HK&lt;13/5\). Its exact Hausdorff dimension and full topological classification are unknown.</p>
+<p>The hero uses the 127-map m=3 member with six axial subdivisions and q=1/8, for which \(\dim_HK&lt;17/8\). The finer 244-map m=6 member with the same axial and central parameters has \(\dim_HK&lt;23/12&lt;2\), certifying topological dimension one. These are separate recipes; the latter bound is not assigned to the hero. See the <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/VARIANTS.md">variant definitions</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/low-dimension-exact-certificate.json">thin-member certificate</a>.</p>
+<h2 id="membrane-family">Membrane family</h2>
+<p>For every \(0&lt;q&lt;1/2\), the membrane has topological dimension two, Assouad dimension three, and zero ordinary volume. Its Hausdorff dimension satisfies</p>
+<p>\[
+2&lt;\dim_HK_q\leq s_q&lt;3,\qquad4\cdot2^{-s_q}+4q^{s_q}=1.
+\]</p>
+<p>At q=1/4 the elementary upper bound is \(1+\log_2(1+\sqrt2)\approx2.271553303\). The exact-overlap calculation below improves it strictly. Neither bound is an exact dimension. As q tends to zero, the elementary bound tends to two. Every relative neighbourhood contains genuine planar patches in a dense set of orientations.</p>
+<p>The strict lower bounds use <a href="https://arxiv.org/pdf/1411.0867">Farkas–Fraser, Corollary 3.1</a>: positive critical Hausdorff measure of a finite self-similar set implies Ahlfors regularity without a separation assumption. A retained interval or square rules out equality to one or two, respectively, because regularity would contradict the Assouad dimension gap.</p>
+<h2 id="exact-overlaps-and-a-sharper-bound">Exact overlaps and a sharper bound</h2>
+<p>The original q=1/4 membrane has an exactly verified affine-word coincidence:</p>
+<pre><code class="language-text">47131103333 = 12222011470
+</code></pre>
+<p>Digits 0–3 denote the four tiling maps and 4–7 the central rotations; words are outermost first. This is equality of complete affine maps, not merely an intersection between copies. The common contraction ratio is \(2^{-13}\).</p>
+<p>A family of 32 such relations permits a smaller cylinder cover. Exact rational root and logarithm bounds give</p>
+<p>\[
+2&lt;\dim_HK_{1/4}&lt;2.271553252338126.
+\]</p>
+<p>The improvement is small but strict, proving that the elementary similarity bound is not attained. A separately defined norm-13 rotation variant has a six-letter relation and upper bound 2.270907424784688. It is not the reference rotation. See the <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/overlaps/OVERLAPS.md">full derivation and certificates</a>. These are internally checked results, pending external review.</p>
+<h2 id="what-the-visible-sheets-leave-out">What the visible sheets leave out</h2>
+<p>Let D be the union of all finite-word square images, and E the remainder \(K\setminus D\). Then D is dense, meagre, and has Hausdorff dimension exactly two. E is a dense Gδ set carrying the full Hausdorff dimension of K, which is strictly greater than two. Finite sheet renders omit those residual points even though the sheets approximate the entire attractor in Hausdorff distance.</p>
+<p>At the actual dimension \(d=\dim_HK\), the critical measure \(\mathcal H^d(K)\) is zero. Otherwise the same Farkas–Fraser theorem would force Ahlfors regularity and erase the dimension gap. “Carries the dimension” therefore does not mean positive critical Hausdorff measure. The <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/overlaps/OVERLAPS.md">residual-set proof</a> records this distinction.</p>
+<h2 id="separation-and-alternative-descriptions">Separation and alternative descriptions</h2>
+<p>The gap \(\dim_HK&lt;\dim_AK=3\) excludes every alternative finite similarity presentation satisfying the weak separation property, and therefore excludes an open-set-condition presentation. The applicable <a href="https://arxiv.org/pdf/1404.1016">Fraser–Henderson–Olson–Robinson Theorem 1.4</a> requires full affine span, which both constructions have.</p>
+<p>This is a property of the set. A list of maps may also have its own exact overlaps or redundant words; those presentation-level questions are distinct and remain under investigation.</p>
+<h2 id="what-has-been-checked">What has been checked</h2>
+<ul>
+<li><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/verify_exact.py">Rational scalar bounds</a> verify the reported enclosures and selected dimension inequalities.</li>
+<li><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/LINK_CHECK.md">The link certificate</a> uses exact crossings and Fox 3-colourings, together with a geometric pairwise separation argument.</li>
+<li><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/INDEPENDENT_REVIEW.md">Independent internal review</a> audits the arguments and independently enumerates the colouring assignments.</li>
+<li><a href="paper.html">The manuscript</a> gives the general constructions and proof dependencies.</li>
+</ul>
+<p>Containing an embedded link does not classify the topology of the whole attractor or its complement. Historical originality and exact Hausdorff dimensions are not established.</p><div class="doc-meta">Working edition · 20 November 2026 · <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/docs/results.md">View page source</a></div></article></div></main><footer class="site-footer"><div class="footer-top"><p>Rotational Seed Fractals<br>A mathematical and visual investigation by <a href="https://github.com/okwhynot-wtf">okwhynot-wtf</a>.</p><nav class="footer-links" aria-label="Footer"><a href="paper.html">Paper draft</a><a href="media.html">Media</a><a href="provenance.html">Provenance</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals">Source repository</a></nav></div><div class="footer-bottom"><span>2026 · Candidate families · External mathematical review pending</span><span>Code &amp; data: MIT · Content: CC BY 4.0 · <a href="provenance.html">AI assistance disclosed</a></span></div></footer></body></html>

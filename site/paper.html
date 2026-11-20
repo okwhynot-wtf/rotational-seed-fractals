@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><meta name="theme-color" content="#080d10"><title>Retained graphs and membranes in self-similar spatial continua · Rotational Seed Fractals</title><meta name="description" content="Exact self-similar spatial constructions: a linked threefold continuum, a fourfold membrane, and dense full-ball tangent points. Candidate families; research in progress."><link rel="canonical" href="https://okwhynot-wtf.github.io/rotational-seed-fractals/paper.html"><meta property="og:title" content="Retained graphs and membranes in self-similar spatial continua · Rotational Seed Fractals"><meta property="og:description" content="Exact self-similar spatial constructions: a linked threefold continuum, a fourfold membrane, and dense full-ball tangent points. Candidate families; research in progress."><meta property="og:type" content="website"><meta property="og:image" content="https://okwhynot-wtf.github.io/rotational-seed-fractals/assets/hero-poster.jpg"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/site.css"><script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']],processEscapes:true},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script defer src="assets/site.js"></script></head><body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 3 35 12 35 29 20 37 5 29 5 12Z M20 3 20 37 M5 12 35 29 M35 12 5 29" stroke="currentColor" stroke-width="1.2"/><path d="m20 12 7 4v8l-7 4-7-4v-8Z" stroke="currentColor" stroke-width="1.2"/></svg><span>ROTATIONAL<br>SEED FRACTALS</span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html#families">Families</a><a href="results.html">Results</a><a href="paper.html">Paper draft</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals">GitHub</a></nav><details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation"><a href="index.html#families">Families</a><a href="results.html">Results</a><a href="paper.html">Paper draft</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals">GitHub</a></nav></details></header><main id="main"><div class="doc-shell"><aside class="doc-nav" aria-label="Research documentation"><p>Research notebook</p><a href="definition.html">Definitions</a><a href="results.html">Results</a><a href="related.html">Related work</a><a href="reproduce.html">Reproduce</a><a href="paper.html" aria-current="page">Paper draft</a><a href="media.html">Media</a><a href="provenance.html">Provenance</a><div class="source-nav"><p>Evidence</p><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/INDEPENDENT_REVIEW.md">Internal review</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/PRIOR_ART.md">Literature audit</a></div></aside><article class="prose"><h1 id="retained-graphs-and-membranes-in-self-similar-spatial-continua">Retained graphs and membranes in self-similar spatial continua</h1>
+<p><strong>Research draft — 20 November 2026.</strong> This document presents explicit constructions and proofs assembled during an exploratory investigation. It does not claim invention of a new category of fractal. Historical priority, exact overlaps, and several geometric questions remain under investigation. The draft has received internal mathematical and computational checks, not external peer review.</p>
+<h2 id="abstract">Abstract</h2>
+<p>We describe two finite similarity constructions in three-dimensional Euclidean space. Both retain a simple geometric seed as an exact subset and add contracting rotations about a common point. The first can contain any prescribed finite connected polygonal spatial graph while having Hausdorff dimension strictly between one and an arbitrarily chosen number greater than one. The second retains a square and has topological dimension two, with Hausdorff dimension strictly between two and three and tending towards two in an upper-bound sense. Both are connected, have zero volume, and admit a dense set of points at which every normalized small-scale view converges in Hausdorff distance to the full unit ball. Thus their Assouad dimension is three. A corollary of the Benoist–de Saxcé spectral-gap theorem gives a positive-power convergence rate, an Assouad spectrum equal to three sufficiently near parameter one, and quasi-Assouad dimension three; the exponent and transition threshold remain nonnumerical. A graph example retains a rectangular Borromean link, and an eight-map membrane example has exact fourfold rotational symmetry. These are concrete combinations of established IFS, tangent, spectral-gap, and dimension theory; their exact dimensions and full topological classifications are not determined.</p>
+<h2 id="1-framework-and-meaning-of-the-claims">1. Framework and meaning of the claims</h2>
+<p>A finite similarity iterated function system consists of maps</p>
+<p>\[
+f_i(x)=r_i O_i x+b_i,\qquad 0&lt;r_i&lt;1,\quad O_i\in SO(3).
+\]</p>
+<p>It has a unique nonempty compact attractor satisfying</p>
+<p>\[
+K=\bigcup_{i=1}^N f_i(K).
+\]</p>
+<p>For a word \(w=i_1\cdots i_k\), write \(f_w=f_{i_1}\circ\cdots\circ f_{i_k}\), with the rightmost map acting first. Each \(f_w(K)\) is literally a smaller similar copy of the entire set, and word diameters tend to zero along every infinite address. Existence, uniqueness, and convergence of compact-set iteration are the standard contraction framework of <a href="https://maths-people.anu.edu.au/~john/Assets/Research%20Papers/fractals_self-similarity.pdf">Hutchinson, <em>Fractals and Self-Similarity</em></a>.</p>
+<p>We distinguish Hausdorff dimension \(\dim_H\), which measures small-scale size, from Assouad dimension \(\dim_A\), which bounds the worst local covering complexity over all locations and pairs of scales. The covering equation</p>
+<p>\[
+\sum_i r_i^s=1
+\]</p>
+<p>always supplies a Hausdorff-dimension upper bound. Equality is not assumed here: the constructions have substantial overlap.</p>
+<p>Let \(B=\overline B(0,1)\). The basic local assertion in this draft is</p>
+<p>\[
+\lim_{t\downarrow0}d_H\left(\frac{K-p}{t}\cap B,B\right)=0. \tag{1}
+\]</p>
+<p>Here \(d_H\) is Hausdorff distance between compact sets. Equation (1) concerns every sufficiently small positive scale at the fixed centre \(p\). It is stronger than finding a full-ball weak tangent along selected scales with moving centres, and stronger than a statement about limiting directions alone. It does not imply that any finite-scale piece has positive volume or contains a ball.</p>
+<h2 id="2-two-elementary-construction-lemmas">2. Two elementary construction lemmas</h2>
+<p><strong>Retained-seed lemma.</strong> Suppose a subsystem has attractor \(S\). The attractor of the complete system contains \(S\), hence contains every \(f_w(S)\).</p>
+<p>For example, two half-interval maps retain a segment, while four half-scale square maps retain a square. Subsequent maps copy the entire eventual attractor, not merely the seed; the seed is used to certify attachments and literal geometry inside those copies.</p>
+<p><strong>Full-ball lemma.</strong> Suppose \(K\) contains the centred unit segment \([-e,e]\), and similarities fixing zero give retained segments</p>
+<p>\[
+\rho_w[-O_we,O_we]\subset K,\qquad \rho_w&gt;0,
+\]</p>
+<p>whose directions \(O_we\) are dense on the sphere. Then (1) holds at zero.</p>
+<p>To prove this, fix \(\varepsilon&gt;0\) and choose finitely many directions forming an \(\varepsilon\)-net of the sphere. Their retained segment radii have a positive minimum \(\delta\). For every \(0&lt;t\leq\delta\), the normalized set contains the corresponding unit segments. A point \(ru\in B\) lies within \(r\varepsilon\leq\varepsilon\) of one of them. The reverse Hausdorff distance is zero because the normalized set is clipped to \(B\).</p>
+<p>The conclusion transfers from zero to every cylinder centre \(p=f_w(0)\): writing \(f_w(x)=rOx+p\),</p>
+<p>\[
+\frac{K-p}{t}\cap B\supset O\left(\frac{K}{t/r}\cap B\right).
+\]</p>
+<p>These centres are dense in \(K\), since an address prefix containing any chosen point has arbitrarily small diameter. A square seed also suffices, since it contains a centred segment. A dense collection of retained centred disks gives the same argument using plane normals.</p>
+<p>Finally, (1) implies \(\dim_A K=3\). Arbitrarily fine finite grids in the ball are approximated by separated points in a normalized piece of \(K\), precluding any uniform Assouad covering exponent smaller than three.</p>
+<h3 id="21-a-spectral-gap-corollary">2.1 A spectral-gap corollary</h3>
+<p>For the constructions below, the common-scale central rotations have algebraic entries and generate a dense subgroup of \(SO(3)\). <a href="https://www.math.univ-paris13.fr/~desaxce/publications/spectral_gap.pdf">Benoist–de Saxcé, Theorem 1.2</a> supplies a spectral gap for the probability measure supported on those rotations. Its statement applies without requiring inverse letters in the support. The resulting decay of powers on mean-zero \(L^2\) gives exponentially fine direction nets from positive words of each sufficiently large exact length.</p>
+<p>The retained segments then yield, for some \(\alpha&gt;0\),</p>
+<p>\[
+H_p(R):=d_H\left(((K-p)/R)\cap B,B\right)
+\leq C_pR^\alpha
+\]</p>
+<p>at every cylinder centre \(p=f_w(0)\), for all sufficiently small \(R\). The exponent can be common to those centres; the constants and starting scales depend on the cylinder. Neither a numerical exponent nor a uniform estimate over all points of \(K\) is asserted.</p>
+<p>The ordinary Assouad spectrum uses small radius \(r=R^{1/\theta}\). If \(\theta&gt;1/(1+\alpha)\), then the absolute approximation error \(O(R^{1+\alpha})\) is \(o(r)\). Approximating a separated grid in \(B(0,R/2)\) therefore requires order \((R/r)^3\) radius-r balls. The ambient upper bound proves</p>
+<p>\[
+\dim_A^\theta K=3\quad\text{for every sufficiently large }\theta&lt;1,
+\qquad \dim_{qA}K=3.
+\]</p>
+<p>The quasi-Assouad conclusion uses the limiting relation in <a href="https://arxiv.org/pdf/1804.09607">Fraser–Hare–Hare–Troscheit–Yu, Corollary 2.2</a>. The <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/SPECTRAL_TANGENTS.md">full derivation</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/SPECTRAL_TANGENTS_REVIEW.md">separate internal review</a> check the hypotheses, positive-word argument, and all-scale quantifiers. The sufficient threshold is existential, and the actual transition in the spectrum is undetermined. This is an application of established spectral-gap theory with unresolved historical originality, not an assertion of a new category.</p>
+<p>The spectrum is nonconstant. For any covering exponent s&lt;3 with \(\sum_i r_i^s\leq1\), a stopping-word cover has at most \(C r^{-s}\) cylinders of diameter at most r: the stopped ratios are bounded below by a fixed multiple of r and their total s-weight is at most one. Consequently</p>
+<p>\[
+\dim_A^\theta K\leq\min\{3,s/(1-\theta)\}&lt;3
+\qquad(0&lt;\theta&lt;1-s/3).
+\]</p>
+<p>Together with the plateau at three near one, this proves nonconstancy without assuming equality of Hausdorff and box dimensions. The hero's exponent s=17/8 gives the explicit interval \(0&lt;\theta&lt;7/24\) on which the spectrum is below three. The actual transition remains undetermined.</p>
+<h2 id="3-a-graph-construction-with-hausdorff-dimension-near-one">3. A graph construction with Hausdorff dimension near one</h2>
+<p><strong>Theorem A.</strong> For every finite connected polygonal graph \(G\subset\mathbb R^3\) and every \(\varepsilon&gt;0\), there is a finite similarity attractor \(K\) such that:</p>
+<ol>
+<li>\(G\subset K\), and \(K\) is path connected;</li>
+<li>\(1&lt;\dim_H K&lt;1+\varepsilon\) and \(\dim_A K=3\);</li>
+<li>\(K\) can be chosen to have topological dimension one and zero volume;</li>
+<li>equation (1) holds at a dense set of cylinder centres;</li>
+<li>every neighbourhood of every point of \(K\) contains a similar copy of the prescribed graph.</li>
+</ol>
+<p>Any chosen finite cyclic rotational symmetry can additionally be imposed by including the corresponding finite orbits of the construction. This proves that the symmetry is present, not that it is the full symmetry group.</p>
+<h3 id="31-exact-recipe">3.1 Exact recipe</h3>
+<p>Let \(e=(0,0,1)\) and \(S=[-e,e]\). Join \(G\) to \(S\) by a finite polygonal path if necessary. Denote the resulting connected finite graph by \(\Gamma\). Split crossings and overlapping edges into a finite edge decomposition, so \(\Gamma\) is the union of \(S\) and finitely many additional nondegenerate segments of lengths \(\ell_1,\ldots,\ell_E\). Put \(L=\sum_j\ell_j\).</p>
+<p>Retain \(S\) with</p>
+<p>\[
+a_\pm(x)=\tfrac12x\pm\tfrac12e.
+\]</p>
+<p>For an integer \(m\geq1\), divide edge \(j\) into \(n_j=\lceil m\ell_j\rceil\) equal pieces. For each oriented piece \(U\to V\), choose a proper rotation \(O_{UV}\) with</p>
+<p>\[
+O_{UV}e=\frac{V-U}{|V-U|},
+\]</p>
+<p>and include</p>
+<p>\[
+f_{UV}(x)=\frac{|V-U|}{2}O_{UV}x+\frac{U+V}{2}. \tag{2}
+\]</p>
+<p>Then \(f_{UV}(-e)=U\) and \(f_{UV}(e)=V\). The choice of rotation about the target edge is a free roll parameter.</p>
+<p>Add four central similarities</p>
+<p>\[
+h_0(x)=q_mx,\quad h_x(x)=q_mR_xx,\quad h_y(x)=q_mR_yx,\quad h_z(x)=q_mR_zx,
+\qquad q_m=\frac1{4m^2}, \tag{3}
+\]</p>
+<p>where \(R_x,R_y,R_z\) are rotations about the coordinate axes with</p>
+<p>\[
+\cos\theta=\frac35,\qquad\sin\theta=\frac45.
+\]</p>
+<p>All maps are strict contractions. For rational graph vertices, a reproducible orthonormal-frame choice in (2) gives algebraic coefficients; (3) has rational coefficients. The existence statement permits arbitrary real graph coordinates.</p>
+<h3 id="32-containment-and-connectivity">3.2 Containment and connectivity</h3>
+<p>The interval subsystem gives \(S\subset K\), and (2) gives every subdivided edge of \(\Gamma\) as an exact subset of \(K\).</p>
+<p>For a direct connectivity proof, begin compact-set iteration at \(\Gamma\). The two axial images meet at zero and cover \(S\). Every edge image contains its target segment in \(\Gamma\); every central image contains zero. The union therefore contains \(\Gamma\), and each connected image meets that connected graph. Repeating the argument gives connected iterates converging to connected \(K\).</p>
+<p>Path connectedness follows from the same attachment data. Every map centre \(f_i(0)\) lies on \(\Gamma\), so choose a polygonal path in \(\Gamma\) from zero to each centre. For an infinite address, successive images of these finitely many paths join consecutive cylinder centres. Their lengths decrease geometrically, and the centres converge to the addressed point. Concatenation gives a continuous, indeed finite-length, path from zero to that point.</p>
+<h3 id="33-dense-directions-and-every-scale-tangents">3.3 Dense directions and every-scale tangents</h3>
+<p>The angle \(\theta/\pi\) is irrational: otherwise \(2\cos\theta=6/5\) would be a rational algebraic integer and thus an integer. Positive powers of \(R_x\) and \(R_y\) are dense in their respective circle subgroups. Their positive semigroup is dense in \(SO(3)\), because a closed subsemigroup of a compact group is a subgroup and rotations about the two axes generate \(SO(3)\).</p>
+<p>The central words retain segments \(q_m^{|w|}R_w(S)\) in a dense collection of directions. The full-ball lemma proves (1) at zero and all cylinder centres, and hence \(\dim_A K=3\).</p>
+<h3 id="34-dimension-bounds">3.4 Dimension bounds</h3>
+<p>The number of edge maps is at most \(mL+E\), and each edge contraction ratio is at most \(1/(2m)\). For \(s&gt;1\),</p>
+<p>\[
+\sum_i r_i^s\leq 2^{1-s}+(mL+E)(2m)^{-s}+4(4m^2)^{-s}. \tag{4}
+\]</p>
+<p>For fixed \(s&gt;1\), the right side tends to \(2^{1-s}&lt;1\). Set \(\eta=\min\{\varepsilon,1\}\) and choose sufficiently large \(m\) so (4) is less than one at \(s=1+\eta\). The usual cylinder covers then give \(\dim_H K&lt;1+\eta\leq1+\varepsilon\). In particular \(\dim_H K&lt;2\), so the retained interval and \(\dim_{\rm top}K\leq\dim_HK\) give topological dimension one. Zero three-dimensional volume follows.</p>
+<p>The strict lower bound uses a cited regularity theorem, rather than the covering calculation. Farkas–Fraser Corollary 3.1 implies that an ordinary finite self-similar set with positive measure in its Hausdorff dimension is Ahlfors regular, without a separation assumption. If \(\dim_HK=1\), the retained interval gives positive critical measure; Ahlfors 1 regularity would imply \(\dim_AK=1\), contradicting the full-ball tangent. Thus \(\dim_HK&gt;1\). <a href="https://arxiv.org/pdf/1411.0867">Farkas–Fraser, primary paper</a>.</p>
+<p>For symmetry, take the finite orbit of \(\Gamma\) around the source axis and include the conjugate orbit of every edge and central map. The axial subsystem remains unchanged; the other terms in (4) gain only a fixed factor. The same limit argument applies. A deep cylinder containing a point has small diameter and contains a copy of \(G\), proving the neighbourhood claim.</p>
+<h2 id="4-a-concrete-borromean-member">4. A concrete Borromean member</h2>
+<p>The implemented spatial example uses source endpoints \(A=(-1,-1,-1)\), \(B=(1,1,1)\) and the order-three rotation \(T(x,y,z)=(z,x,y)\). Let \(L_0\) be the rectangle with corners</p>
+<p>\[
+(-2,-1,0),\ (2,-1,0),\ (2,1,0),\ (-2,1,0),
+\]</p>
+<p>and set \(L_1=T(L_0)\), \(L_2=T^2(L_0)\). Three bridges join \(B\) to \((1,1,0)\) and its rotated images. Dividing all ring and bridge edges into length \(1/m\) pieces gives \(39m\) edge maps, each of ratio \(1/(2m\sqrt3)\), plus two axial maps. Four central maps give the tangent extension.</p>
+<p>The three selected loops are disjoint planar unknots and pairwise unlinked. For instance, the spanning disk \([-2,2]\times[-1,1]\times\{0\}\) misses \(L_1\); a thin regular neighbourhood separates that pair. A rational projection yields a regular twelve-crossing diagram whose Fox 3-colouring system has three solutions, compared with 27 for the three-component unlink. Each pair has nine colourings. The geometric separation argument and the full-link count establish the nonsplittable Brunnian property of the specified rectangular arrangement.</p>
+<p>For \(m=2\), \(q=1/4\), the original system has 84 maps and a numerical covering root about 2.56264511; exact scalar inequalities certify \(\dim_HK&lt;13/5\). The published hero uses a different member: \(m=3\), six axial subdivisions, and \(q=1/8\), with 127 maps and certified \(\dim_HK&lt;17/8\). Its exact recipe is linked in Section 8. Neither of these members is claimed to have topological dimension one. A finer member with \(m=6\), six axial subdivisions, and \(q=1/8\) has 244 maps and certified \(\dim_HK&lt;23/12&lt;2\), which does establish topological dimension one. Their exact Hausdorff dimensions remain undetermined.</p>
+<p>Every cylinder contains a similar copy of the selected link. The full attractor is connected, and additional points may fill surfaces or connect paths around those curves. Containment of a link therefore does not determine the topology of \(K\), prove that its loops are essential in \(K\), or classify \(\mathbb R^3\setminus K\).</p>
+<h2 id="5-an-eight-map-fourfold-membrane">5. An eight-map fourfold membrane</h2>
+<p>Let \(S=[-1,1]^2\times\{0\}\), and define four tiling similarities</p>
+<p>\[
+f_{ab}(x)=\tfrac12x+(a/2,b/2,0),\qquad a,b\in\{-1,1\}.
+\]</p>
+<p>Let \(Z\) be the rotation through \(\pi/2\) about the z axis and put</p>
+<p>\[
+Q=\frac1{125}
+\begin{pmatrix}
+53&amp;-60&amp;96\\
+60&amp;-75&amp;-80\\
+96&amp;80&amp;-3
+\end{pmatrix},\qquad
+Q_k=Z^kQZ^{-k},\qquad h_k(x)=qQ_kx,
+\quad k=0,1,2,3,
+\tag{5}
+\]</p>
+<p>where \(0&lt;q&lt;1/2\). For rational \(q\), every coefficient is rational. Let \(K_q\) be the eight-map attractor.</p>
+<p><strong>Theorem B.</strong> The set \(K_q\) is path connected, has fourfold rotational symmetry, topological dimension two, and zero volume. Its dimensions satisfy</p>
+<p>\[
+2&lt;\dim_HK_q\leq s_q&lt;3,\qquad \dim_AK_q=3,
+\]</p>
+<p>where \(s_q\) solves \(4\cdot2^{-s_q}+4q^{s_q}=1\) and \(s_q\downarrow2\) as \(q\downarrow0\). Every relative neighbourhood contains actual planar square patches in a dense set of orientations. Equation (1) holds at every cylinder centre.</p>
+<p><strong>Proof.</strong> The tiling subsystem retains \(S\). All four central images contain zero. Connected-set iteration, or the path argument above, proves connectivity. Conjugation by \(Z\) permutes the eight maps, so uniqueness gives \(Z(K_q)=K_q\).</p>
+<p>The matrix \(Q\) is a proper rotation about \((4/5,0,3/5)\), with cosine \(-3/5\) and sine \(4/5\). Its angle is again an irrational multiple of \(\pi\). The closure of the positive semigroup contains the full rotation circles generated by \(Q_0\) and \(Q_1\). Their axes \((4/5,0,3/5)\) and \((0,4/5,3/5)\) are nonparallel. Their infinitesimal rotations and Lie bracket span \(\mathfrak{so}(3)\), so the closed group is \(SO(3)\).</p>
+<p>Consequently the normals of the centred squares \(h_w(S)\) are dense. The full-ball lemma applies. Every cylinder also contains the rotated square subsystem, so the density of orientations persists inside every relative neighbourhood. The countable union of all retained square copies is dense in \(K_q\). Section 5.1 describes its residual complement; that complement's topology remains undetermined.</p>
+<p>The covering sum equals \(1/2+4q^3&lt;1\) at exponent three, hence \(s_q&lt;3\). The square gives \(\dim_HK_q\geq2\). Equality to two would, by the same verified Farkas–Fraser regularity argument used above, imply Assouad dimension two, a contradiction. The topological-dimension inequality and the retained square then force \(\dim_{\rm top}K_q=2\).</p>
+<p>At \(q=1/4\), the explicit upper bound is</p>
+<p>\[
+2&lt;\dim_HK_{1/4}\leq1+\log_2(1+\sqrt2)
+=2.271553303163612\ldots.
+\]</p>
+<p>The upper bound is not asserted to be the dimension. For any \(\varepsilon&gt;0\), sufficiently small positive \(q\) gives \(2&lt;\dim_HK_q&lt;2+\varepsilon\).</p>
+<h3 id="51-exact-overlaps-and-the-residual-set">5.1 Exact overlaps and the residual set</h3>
+<p>At \(q=1/4\), exact rational composition verifies the affine-map equality</p>
+<pre><code class="language-text">47131103333 = 12222011470.
+</code></pre>
+<p>Here digits 0–3 are the square maps in sign order \((-,-),(-,+),(+,-),(+,+)\), digits 4–7 are \(h_0,\ldots,h_3\), and words are outermost first. Both sides contract by \(2^{-13}\). Thirty-two symmetry and sign variants yield a lexicographically decreasing rewriting rule. Their forbidden left patterns have no proper prefix–suffix overlaps. The resulting weighted cover recurrence proves</p>
+<p>\[
+2&lt;\dim_HK_{1/4}&lt;2.271553252338126.
+\]</p>
+<p>The last decimal is a certified upper endpoint, obtained with rational polynomial and logarithm bounds. It is not an exact dimension. The <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/overlaps/OVERLAPS.md">overlap report</a> gives the recurrence proof and exact certificates, as well as a separately defined norm-13 rotation variant with a shorter relation. These equalities coexist with free core rotation generators: inserting tiling maps changes the translations without changing the ordered core rotation subsequence.</p>
+<p>For any \(q\) in Theorem B, put \(D=\bigcup_w f_w(S)\), including the empty word, and \(E=K_q\setminus D\). The set \(D\) is dense and has Hausdorff dimension two. Each square is closed with empty relative interior, since every relative neighbourhood contains patches with dense orientations. Thus \(D\) is meagre and \(E\) is a dense Gδ set. Countable stability of Hausdorff dimension and \(\dim_HK_q&gt;2\) imply \(\dim_HE=\dim_HK_q\). Finite square-only renders omit the residual points literally, while still converging in Hausdorff distance to the whole attractor. Moreover, if \(d=\dim_HK_q\), then \(\mathcal H^d(K_q)=0\): positive critical measure would force Ahlfors regularity and contradict \(\dim_AK_q=3&gt;d\).</p>
+<h3 id="52-explicit-finite-bounds-at-the-origin">5.2 Explicit finite bounds at the origin</h3>
+<p>An independent finite certificate gives numerical instances of the full-ball convergence for the <strong>original eight-map denominator-125 membrane at \(q=1/4\)</strong>. At the origin, the following bounds hold at every positive scale below the threshold:</p>
+<table>
+<thead>
+<tr>
+<th>Maximum central-word depth n</th>
+<th>Scale threshold</th>
+<th>Strict upper bound on \(d_H((K_{1/4}/t)\cap B,B)\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>t ≤ 1/1024</td>
+<td>0.092423119034</td>
+</tr>
+<tr>
+<td>6</td>
+<td>t ≤ 1/4096</td>
+<td>0.021264176895</td>
+</tr>
+<tr>
+<td>7</td>
+<td>t ≤ 1/16384</td>
+<td>0.009278720270</td>
+</tr>
+</tbody>
+</table>
+<p>Each central word of length at most n retains a centred disk with radius at least \(4^{-n}\). The certificate checks exact plane-distance witnesses at 120,000 antipodally paired cube-face directions and adds a rigorous rational mesh-radius enclosure to cover the intervening directions. Integer arithmetic verifies the selected normals, squared distances, and upper enclosures. The <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/tangent_bounds/README.md">finite-bound proof and checker instructions</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/tangent_bounds/certificate.json">complete certificate</a> give the details.</p>
+<p>These inequalities concern the infinite reference attractor and every stated scale; they are not sampled-image errors or estimates for the anchored visual variant. At a cylinder centre with contraction \(r_w\), the same error bound holds below scale \(r_w4^{-n}\). The finite certificate does not determine the asymptotic exponent in Section 2.1 or the actual Assouad-spectrum transition.</p>
+<h2 id="6-separation-presentation-and-intrinsic-properties">6. Separation, presentation, and intrinsic properties</h2>
+<p>The graph system visibly fails the weak separation property (WSP): relative word maps \(h_0^{-n}h_x^n=R_x^n\) have nonidentity subsequences converging to the identity. The membrane's presented IFS fails the open set condition (OSC) directly. If a feasible open set contained a ball of radius \(r\), its \(4^n\) central-word images would be disjoint balls of radius \(q^nr\), all contained in a ball whose radius is a fixed multiple of \(q^n\). Volume comparison is impossible as \(n\) grows. Coincident word maps would already violate the required disjointness.</p>
+<p>More strongly, neither attractor admits any alternative finite similarity presentation satisfying WSP, and hence none satisfying OSC. The precise applicable result is Fraser–Henderson–Olson–Robinson Theorem 1.4: a self-similar set not contained in a codimension-one affine hyperplane has \(\dim_A=\dim_H\) whenever its defining IFS satisfies WSP. Both sets have full affine span and a strict intrinsic dimension gap. This implication does not require that the alternative presentation use the displayed rotations. <a href="https://arxiv.org/pdf/1404.1016">FHOR, primary paper</a>.</p>
+<p>This distinction matters throughout. The number of maps, individual roll angles, exact word coincidences, and a first-level intersection graph describe a presentation. Hausdorff, Assouad, and topological dimensions, the existence of a contained embedded graph, and equation (1) describe the set. Different presentations can define the same set. A map-level change or a different rendered silhouette alone does not establish a new intrinsic family.</p>
+<h2 id="7-relation-to-earlier-work-and-remaining-questions">7. Relation to earlier work and remaining questions</h2>
+<p>Retaining a segment or square with its own subsystem is a homogeneous way to implement a persistent seed. It is closely related in spirit to condensation-set constructions; it is not a new framework for self-similarity. Recursive knots and Borromean arrangements also have direct predecessors, including <a href="https://archive.bridgesmathart.org/2007/bridges2007-335.pdf">Fathauer's iterative fractal knots</a> and <a href="https://archive.bridgesmathart.org/2010/bridges2010-263.pdf">Burkholder's Brunnian weavings</a>. Even arbitrary knot containment is not a new discriminator by itself: <a href="https://arxiv.org/abs/2409.03639">Broden and collaborators</a> establish it for the Menger sponge.</p>
+<p>The full-ball phenomenon should likewise be placed within tangent theory. Guido–Isola's fixed-point result, Theorem 2.6 in the linked preprint, describes metric tangents through the completion of the union of inverse similarity iterates. With the graph system's central homothety and dense retained directions, that completion is \(\mathbb R^3\). The elementary proof here establishes the precise embedded, closed-window, every-scale statement used in the construction. <a href="https://arxiv.org/pdf/math/0305091">Guido–Isola</a>.</p>
+<p>Käenmäki–Rutar prove abundant points with tangents attaining Assouad dimension for broad invariant-set classes. Their general result concerns existence of large tangents, rather than the unique full-ball convergence asserted here. <a href="https://arxiv.org/pdf/2309.11971"><em>Tangents of invariant sets</em>, Theorem C</a>.</p>
+<p>The contribution currently proposed is therefore an explicit, reproducible combination: chosen retained spatial geometry, symmetry when desired, controllably small excess Hausdorff dimension, and a dense set of unique full-ball tangent points. An exact earlier statement combining these features was not located in the present search. That does not establish priority or publishable novelty.</p>
+<p>Further investigation should address the actual Hausdorff dimensions, parameter-dependent exact overlaps and equivalent presentations, the geometry of the residual set beyond the retained seeds, and complement invariants that survive all descendants. Section 2.1 supplies a positive-power rate for (1), but an effective numerical exponent and the actual transition in the Assouad spectrum remain open. Rendering should document which geometry is shown, at what depth, and with what line or surface thickness.</p>
+<h2 id="8-reproducibility-and-current-artifacts">8. Reproducibility and current artifacts</h2>
+<p>The implementation and evidence are recorded in the following repository files.</p>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/REPORT.md">Survey definition and report</a></td>
+<td>Threefold Borromean recipes, bounds, and scope</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/model.py">Survey model</a></td>
+<td>Recipe construction, decimal matrix exports, and point sampling</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/Borromean-C3-m3-axis6-q1_8-Exact.aifs">Rendered 127-map exact recipe</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/VARIANTS.md">variant definitions</a></td>
+<td>Exact hero geometry and axial subdivision parameters</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/survey/verify_exact.py">Exact scalar verifier</a></td>
+<td>Rational enclosure and dimension inequalities</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/LINK_CHECK.md">Link certificate explanation</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/verify_link.py">verifier</a></td>
+<td>Exact projected crossings and Fox-colouring system</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/MEMBRANE.md">Membrane definition</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/membrane.py">implementation</a></td>
+<td>Rational matrices, proofs, and finite genuine sheet subsets</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/overlaps/OVERLAPS.md">Exact overlaps and residual-set report</a></td>
+<td>Word equalities, sharper bounds, free rotations, and limits of sheet renders</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/SPECTRAL_TANGENTS.md">Spectral-gap corollary</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/SPECTRAL_TANGENTS_REVIEW.md">internal review</a></td>
+<td>Existential power-law tangent rate, final Assouad-spectrum plateau, and quasi-Assouad dimension</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/tangent_bounds/README.md">Explicit tangent bounds</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/constructive/tangent_bounds/certificate.json">certificate</a></td>
+<td>Exact finite numerical bounds for the original eight-map q=1/4 membrane</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/PRIOR_ART.md">Prior-art audit</a></td>
+<td>Broader precedents and unresolved novelty comparison</td>
+</tr>
+<tr>
+<td><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/INDEPENDENT_REVIEW.md">Independent internal review</a> and <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/PUBLICATION_AUDIT.md">publication audit</a></td>
+<td>Checked hypotheses, limitations, and independent finite computations</td>
+</tr>
+</tbody>
+</table>
+<p>Floating-point matrix tests establish implementation consistency, not symbolic topology. The scalar and link certificates use exact arithmetic for their stated finite questions. Rendered tubes or finite point clouds are visualizations of the construction; membrane square panels are genuine retained subsets computed to finite depth. None of these artifacts alone is a proof-assistant formalization, an external review, or evidence of historical originality.</p><div class="doc-meta">Working edition · 20 November 2026 · <a href="https://github.com/okwhynot-wtf/rotational-seed-fractals/blob/main/research/PAPER_DRAFT.md">View page source</a></div></article></div></main><footer class="site-footer"><div class="footer-top"><p>Rotational Seed Fractals<br>A mathematical and visual investigation by <a href="https://github.com/okwhynot-wtf">okwhynot-wtf</a>.</p><nav class="footer-links" aria-label="Footer"><a href="paper.html">Paper draft</a><a href="media.html">Media</a><a href="provenance.html">Provenance</a><a href="https://github.com/okwhynot-wtf/rotational-seed-fractals">Source repository</a></nav></div><div class="footer-bottom"><span>2026 · Candidate families · External mathematical review pending</span><span>Code &amp; data: MIT · Content: CC BY 4.0 · <a href="provenance.html">AI assistance disclosed</a></span></div></footer></body></html>
